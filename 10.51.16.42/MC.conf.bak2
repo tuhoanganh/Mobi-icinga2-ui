@@ -306,11 +306,11 @@ object Host "ME-MC-HNI-YHA" {
   vars.interface["xe-10/0/7"].if_index = 684
 }
 
-object Host "ME-AGG-HNI-1.2" {
+object Host "ME-AGG-HNI-1.2-,-HN_CGY_TCT_319_TOWER_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.5"
-  display_name = "ME-AGG-HNI-1.2"
+  display_name = "ME-AGG-HNI-1.2-,-HN_CGY_TCT_319_TOWER_IBC"
   vars.interface["xe-0/0/1"].if_index = 526
   vars.interface["ge-1/2/1"].if_index = 582
   vars.interface["ge-0/2/5"].if_index = 546
@@ -332,11 +332,11 @@ object Host "ME-AGG-HNI-1.2" {
   vars.interface["xe-1/0/0"].if_index = 535
 }
 
-object Host "ME-AGG-HNI-1.3" {
+object Host "ME-AGG-HNI-1.3-,-HN_CGY_NGUYEN_PHONG_SAC_3_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.6"
-  display_name = "ME-AGG-HNI-1.3"
+  display_name = "ME-AGG-HNI-1.3-,-HN_CGY_NGUYEN_PHONG_SAC_3_IBC"
   vars.interface["xe-0/0/1"].if_index = 527
   vars.interface["ge-1/3/9"].if_index = 573
   vars.interface["ge-0/2/0"].if_index = 534
@@ -351,11 +351,11 @@ object Host "ME-AGG-HNI-1.3" {
   vars.interface["xe-1/0/0"].if_index = 530
 }
 
-object Host "ME-AGG-HNI-2.1" {
+object Host "ME-AGG-HNI-2.1-,-HN_HBT_TRAN_QUOC_TOAN" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.7"
-  display_name = "ME-AGG-HNI-2.1"
+  display_name = "ME-AGG-HNI-2.1-,-HN_HBT_TRAN_QUOC_TOAN"
   vars.interface["xe-0/0/1"].if_index = 531
   vars.interface["ge-1/2/2"].if_index = 560
   vars.interface["ae1"].if_index = 628
@@ -372,11 +372,11 @@ object Host "ME-AGG-HNI-2.1" {
   vars.interface["xe-1/0/0"].if_index = 554
 }
 
-object Host "ME-AGG-HNI-2.2" {
+object Host "ME-AGG-HNI-2.2-,-HN_HBT_CHO_MO_TOWER_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.8"
-  display_name = "ME-AGG-HNI-2.2"
+  display_name = "ME-AGG-HNI-2.2-,-HN_HBT_CHO_MO_TOWER_IBC"
   vars.interface["ge-1/2/2"].if_index = 583
   vars.interface["ge-1/2/8"].if_index = 589
   vars.interface["ae1"].if_index = 659
@@ -403,11 +403,11 @@ object Host "ME-AGG-HNI-2.2" {
   vars.interface["xe-1/0/0"].if_index = 535
 }
 
-object Host "ME-AGG-HNI-2.3" {
+object Host "ME-AGG-HNI-2.3-,-HN_HMI_GIAP_BAT_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.9"
-  display_name = "ME-AGG-HNI-2.3"
+  display_name = "ME-AGG-HNI-2.3-,-HN_HMI_GIAP_BAT_IBC"
   vars.interface["xe-0/0/1"].if_index = 527
   vars.interface["ge-1/3/9"].if_index = 572
   vars.interface["ge-0/2/5"].if_index = 539
@@ -427,11 +427,11 @@ object Host "ME-AGG-HNI-2.3" {
   vars.interface["xe-1/0/0"].if_index = 530
 }
 
-object Host "ME-AGG-HNI-3.1" {
+object Host "ME-AGG-HNI-3.1-,-HN_THO_VUON_DAO_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.10"
-  display_name = "ME-AGG-HNI-3.1"
+  display_name = "ME-AGG-HNI-3.1-,-HN_THO_VUON_DAO_IBC"
   vars.interface["ge-1/2/2"].if_index = 575
   vars.interface["ge-1/2/0"].if_index = 583
   vars.interface["xe-1/1/0"].if_index = 572
@@ -443,11 +443,11 @@ object Host "ME-AGG-HNI-3.1" {
   vars.interface["ge-1/2/1"].if_index = 574
 }
 
-object Host "ME-AGG-HNI-3.5" {
+object Host "ME-AGG-HNI-3.5-,-HN_NTL_GOLDEN_PALACE_TOWER_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.14"
-  display_name = "ME-AGG-HNI-3.5"
+  display_name = "ME-AGG-HNI-3.5-,-HN_NTL_GOLDEN_PALACE_TOWER_IBC"
   vars.interface["xe-0/0/0"].if_index = 526
   vars.interface["ge-0/2/4"].if_index = 533
   vars.interface["ae0"].if_index = 625
@@ -461,11 +461,11 @@ object Host "ME-AGG-HNI-3.5" {
   vars.interface["ge-0/2/3"].if_index = 532
 }
 
-object Host "ME-AGG-HNI-3.4" {
+object Host "ME-AGG-HNI-3.4-,-HN_NTL_LANG_SV_MY_DINH_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.13"
-  display_name = "ME-AGG-HNI-3.4"
+  display_name = "ME-AGG-HNI-3.4-,-HN_NTL_LANG_SV_MY_DINH_IBC"
   vars.interface["ae0"].if_index = 614
   vars.interface["xe-1/1/0"].if_index = 532
   vars.interface["xe-0/1/0"].if_index = 526
@@ -481,11 +481,11 @@ object Host "ME-AGG-HNI-3.4" {
   vars.interface["ge-1/2/1"].if_index = 574
 }
 
-object Host "ME-AGG-HNI-3.3" {
+object Host "ME-AGG-HNI-3.3-,-HN_BTL_GA_PHU_DIEN" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.12"
-  display_name = "ME-AGG-HNI-3.3"
+  display_name = "ME-AGG-HNI-3.3-,-HN_BTL_GA_PHU_DIEN"
   vars.interface["ge-0/2/0"].if_index = 583
   vars.interface["ge-1/2/1"].if_index = 535
   vars.interface["xe-1/1/0"].if_index = 528
@@ -498,11 +498,11 @@ object Host "ME-AGG-HNI-3.3" {
   vars.interface["xe-1/0/0"].if_index = 526
 }
 
-object Host "ME-AGG-HNI-7.4" {
+object Host "ME-AGG-HNI-7.4-,-HN_LBN_THACH_BAN_2" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.28"
-  display_name = "ME-AGG-HNI-7.4"
+  display_name = "ME-AGG-HNI-7.4-,-HN_LBN_THACH_BAN_2"
   vars.interface["xe-0/0/1"].if_index = 526
   vars.interface["ge-0/2/0"].if_index = 551
   vars.interface["ge-0/2/1"].if_index = 542
@@ -518,11 +518,11 @@ object Host "ME-AGG-HNI-7.4" {
   vars.interface["ge-0/2/3"].if_index = 544
 }
 
-object Host "ME-AGG-HNI-5.2" {
+object Host "ME-AGG-HNI-5.2-,-HN_BDH_465B_HOANG_HOA_THAM" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.19"
-  display_name = "ME-AGG-HNI-5.2"
+  display_name = "ME-AGG-HNI-5.2-,-HN_BDH_465B_HOANG_HOA_THAM"
   vars.interface["ge-1/2/0"].if_index = 597
   vars.interface["ge-1/2/7"].if_index = 588
   vars.interface["ae0"].if_index = 622
@@ -539,11 +539,11 @@ object Host "ME-AGG-HNI-5.2" {
   vars.interface["ge-1/2/5"].if_index = 586
 }
 
-object Host "ME-AGG-HNI-4.1" {
+object Host "ME-AGG-HNI-4.1-,-HN_HMI_PHAP_VAN" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.15"
-  display_name = "ME-AGG-HNI-4.1"
+  display_name = "ME-AGG-HNI-4.1-,-HN_HMI_PHAP_VAN"
   vars.interface["ge-1/2/2"].if_index = 575
   vars.interface["ge-1/2/0"].if_index = 586
   vars.interface["xe-1/1/0"].if_index = 572
@@ -555,11 +555,11 @@ object Host "ME-AGG-HNI-4.1" {
   vars.interface["ge-1/2/1"].if_index = 574
 }
 
-object Host "ME-AGG-HNI-6.1" {
+object Host "ME-AGG-HNI-6.1-,-HN_DDA_185_GIANG_VO_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.21"
-  display_name = "ME-AGG-HNI-6.1"
+  display_name = "ME-AGG-HNI-6.1-,-HN_DDA_185_GIANG_VO_IBC"
   vars.interface["ge-1/2/0"].if_index = 582
   vars.interface["ge-1/2/8"].if_index = 590
   vars.interface["ge-1/2/7"].if_index = 589
@@ -578,11 +578,11 @@ object Host "ME-AGG-HNI-6.1" {
   vars.interface["ge-1/2/9"].if_index = 591
 }
 
-object Host "ME-AGG-HNI-4.2" {
+object Host "ME-AGG-HNI-4.2-,-BUU" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.16"
-  display_name = "ME-AGG-HNI-4.2"
+  display_name = "ME-AGG-HNI-4.2-,-BUU"
   vars.interface["ge-1/2/0"].if_index = 581
   vars.interface["xe-1/1/0"].if_index = 571
   vars.interface["xe-0/1/0"].if_index = 528
@@ -599,11 +599,11 @@ object Host "ME-AGG-HNI-4.2" {
   vars.interface["ge-1/2/1"].if_index = 572
 }
 
-object Host "ME-AGG-HNI-5.1" {
+object Host "ME-AGG-HNI-5.1-,-HN_THO_HA_NOI_CLUB" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.18"
-  display_name = "ME-AGG-HNI-5.1"
+  display_name = "ME-AGG-HNI-5.1-,-HN_THO_HA_NOI_CLUB"
   vars.interface["ge-1/2/7"].if_index = 588
   vars.interface["ge-1/2/0"].if_index = 591
   vars.interface["xe-1/0/1"].if_index = 534
@@ -620,11 +620,11 @@ object Host "ME-AGG-HNI-5.1" {
   vars.interface["ge-1/2/1"].if_index = 582
 }
 
-object Host "ME-AGG-HNI-7.1" {
+object Host "ME-AGG-HNI-7.1-,-HN_HKM_BV_VIET_DUC_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.25"
-  display_name = "ME-AGG-HNI-7.1"
+  display_name = "ME-AGG-HNI-7.1-,-HN_HKM_BV_VIET_DUC_IBC"
   vars.interface["ge-1/2/3"].if_index = 580
   vars.interface["ge-1/2/0"].if_index = 582
   vars.interface["ge-1/2/8"].if_index = 586
@@ -642,11 +642,11 @@ object Host "ME-AGG-HNI-7.1" {
   vars.interface["ge-1/2/1"].if_index = 578
 }
 
-object Host "ME-AGG-HNI-7.3" {
+object Host "ME-AGG-HNI-7.3-,-HN_LBN_564_NGUYEN_VAN_CU" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.27"
-  display_name = "ME-AGG-HNI-7.3"
+  display_name = "ME-AGG-HNI-7.3-,-HN_LBN_564_NGUYEN_VAN_CU"
   vars.interface["ge-1/2/0"].if_index = 542
   vars.interface["xe-1/0/1"].if_index = 526
   vars.interface["ae0"].if_index = 630
@@ -662,11 +662,11 @@ object Host "ME-AGG-HNI-7.3" {
   vars.interface["ge-1/2/1"].if_index = 543
 }
 
-object Host "ME-AGG-HNI-5.3" {
+object Host "ME-AGG-HNI-5.3-,-HN_CGY_VIEN_TIN" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.20"
-  display_name = "ME-AGG-HNI-5.3"
+  display_name = "ME-AGG-HNI-5.3-,-HN_CGY_VIEN_TIN"
   vars.interface["ge-0/2/0"].if_index = 543
   vars.interface["ae0"].if_index = 622
   vars.interface["xe-1/0/0"].if_index = 574
@@ -679,11 +679,11 @@ object Host "ME-AGG-HNI-5.3" {
   vars.interface["ge-0/2/3"].if_index = 536
 }
 
-object Host "ME-AGG-HNI-6.2" {
+object Host "ME-AGG-HNI-6.2-,-HN_DDA_VINCOM_NGUYEN_CHI_THANH_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.22"
-  display_name = "ME-AGG-HNI-6.2"
+  display_name = "ME-AGG-HNI-6.2-,-HN_DDA_VINCOM_NGUYEN_CHI_THANH_IBC"
   vars.interface["xe-0/0/1"].if_index = 526
   vars.interface["ge-0/2/1"].if_index = 542
   vars.interface["xe-1/0/1"].if_index = 534
@@ -704,11 +704,11 @@ object Host "ME-AGG-HNI-6.2" {
   vars.interface["ge-0/2/3"].if_index = 544
 }
 
-object Host "ME-AGG-HNI-3.2" {
+object Host "ME-AGG-HNI-3.2-,-HN_BTL_CO_NHUE" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.11"
-  display_name = "ME-AGG-HNI-3.2"
+  display_name = "ME-AGG-HNI-3.2-,-HN_BTL_CO_NHUE"
   vars.interface["ge-1/2/1"].if_index = 574
   vars.interface["ge-0/2/0"].if_index = 534
   vars.interface["ge-1/2/0"].if_index = 583
@@ -722,11 +722,11 @@ object Host "ME-AGG-HNI-3.2" {
   vars.interface["xe-0/0/0"].if_index = 526
 }
 
-object Host "ME-AGG-HNI-6.3" {
+object Host "ME-AGG-HNI-6.3-,-HN_DDA_HO_DAC_DI" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.23"
-  display_name = "ME-AGG-HNI-6.3"
+  display_name = "ME-AGG-HNI-6.3-,-HN_DDA_HO_DAC_DI"
   vars.interface["ge-1/2/0"].if_index = 588
   vars.interface["ge-1/2/7"].if_index = 589
   vars.interface["ae0"].if_index = 622
@@ -745,11 +745,11 @@ object Host "ME-AGG-HNI-6.3" {
   vars.interface["ge-1/2/5"].if_index = 586
 }
 
-object Host "ME-AGG-HNI-4.3" {
+object Host "ME-AGG-HNI-4.3-,-HN_TXN_LILAMA_10_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.17"
-  display_name = "ME-AGG-HNI-4.3"
+  display_name = "ME-AGG-HNI-4.3-,-HN_TXN_LILAMA_10_IBC"
   vars.interface["ge-0/2/4"].if_index = 533
   vars.interface["xe-0/1/0"].if_index = 528
   vars.interface["xe-1/1/0"].if_index = 572
@@ -763,11 +763,11 @@ object Host "ME-AGG-HNI-4.3" {
   vars.interface["ge-0/2/3"].if_index = 532
 }
 
-object Host "ME-AGG-HNI-7.2" {
+object Host "ME-AGG-HNI-7.2-,-HN_HKM_SO_VAN_HOA" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.26"
-  display_name = "ME-AGG-HNI-7.2"
+  display_name = "ME-AGG-HNI-7.2-,-HN_HKM_SO_VAN_HOA"
   vars.interface["ae0"].if_index = 622
   vars.interface["ge-0/2/1"].if_index = 538
   vars.interface["ge-0/2/0"].if_index = 547
@@ -785,11 +785,11 @@ object Host "ME-AGG-HNI-7.2" {
   vars.interface["ge-0/2/3"].if_index = 540
 }
 
-object Host "ME-AGG-HNI-6.4" {
+object Host "ME-AGG-HNI-6.4-,-HN_DDA_VCCI_TOWER_IBC" {
   import "MX480-AGG-Template"
   import "generic-host"
   address = "10.248.0.24"
-  display_name = "ME-AGG-HNI-6.4"
+  display_name = "ME-AGG-HNI-6.4-,-HN_DDA_VCCI_TOWER_IBC"
   vars.interface["xe-0/0/1"].if_index = 527
   vars.interface["ge-0/2/0"].if_index = 534
   vars.interface["xe-1/0/0"].if_index = 575
@@ -806,11 +806,11 @@ object Host "ME-AGG-HNI-6.4" {
   vars.interface["ge-0/2/3"].if_index = 537
 }
 
-object Host "ME-AGG-HNI-1.1" {
+object Host "ME-AGG-HNI-1.1-,-HN_TXN_HV_KHONG_QUAN" {
   import "generic-host"
   import "MX480-AGG-Template"
   address = "10.248.0.4"
-  display_name = "ME-AGG-HNI-1.1"
+  display_name = "ME-AGG-HNI-1.1-,-HN_TXN_HV_KHONG_QUAN"
   vars.interface["ge-1/2/3"].if_index = 560
   vars.interface["xe-1/0/1"].if_index = 531
   vars.interface["ge-1/2/6"].if_index = 563

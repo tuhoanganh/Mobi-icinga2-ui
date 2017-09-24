@@ -1,0 +1,338 @@
+apply Notification "Metro_MC_Status" to Host {
+	import "mail-host-notification"
+	
+	user_groups		= [ "SVTECH",  "MOBIFONE" ]
+	interval 		= 1h
+	assign where 	host.vars.device_type == "MC"
+}
+
+
+apply Notification "Metro_AGG_Status" to Host {
+	import "mail-host-notification"
+	
+	user_groups		= [ "SVTECH",  "MOBIFONE" ]
+	interval 		= 3h
+	assign where 	host.vars.device_type == "AGG"
+}
+
+
+apply Notification "Metro_CSR_Status" to Host {
+	import "mail-host-notification"
+	
+	user_groups		= [ "SVTECH",  "MOBIFONE" ]
+	interval 		= 0
+	assign where 	host.vars.device_type == "CSR"
+}
+
+
+
+
+#apply Notification "Core_Optic_Status" to Service {
+#	import "mail-service-notification"
+#	
+#	users			= [ "sonvqSVT","hungnguyenSVT"]
+#	user_groups		= [  "MOBIFONE" ]
+#	states			= [  Critical ]
+#	interval 		= 4h
+#	
+#	assign where service.vars.service_type == "OPTIC" && match("*MC*",  host.name)
+#}
+
+
+apply Notification "Core_Interface_Status" to Service {
+	import "mail-service-notification"
+	
+	users			= [ "sonvqSVT","hungnguyenSVT", "tudoanSVT"]
+	user_groups		= [  "MOBIFONE" ]
+	states			= [  Critical ]
+	interval 		= 4h
+	assign where match("*ifCheck*", service.display_name) && match("*MC*",  host.name)
+}
+
+#apply Notification "AGG_Optic_Status" to Service {
+#	import "mail-service-notification"
+#	
+#	users			= [ "sonvqSVT","hungnguyenSVT"]
+#	states			= [  Critical ]
+#	
+#	assign where service.vars.service_type == "OPTIC" && match("*AGG*",  host.name)
+#}
+
+#apply Notification "Access_Optic_Status" to Service {
+#	import "mail-service-notification"
+#	
+#	users			= [ "sonvqSVT","hungnguyenSVT"]
+#	states			= [  Critical ]
+#	
+#	assign where service.vars.service_type == "OPTIC" && match("*AGG*",  host.name)
+#}
+
+
+apply Notification "AGG_Core_Interface_Status" to Service {
+	import "mail-service-notification"
+	
+	users			= [ "dvthn", "dvthn2"]
+	users			= [ "sonvqSVT","hungnguyenSVT"]
+	states			= [  Warning, Critical ]
+	interval 		= 4
+
+	assign where match("*ifCheck*ae*", service.display_name) && match("*AGG*",  host.name)
+}
+
+apply Notification "AGG_Access_Interface_Status" to Service {
+	import "mail-service-notification"
+	
+	users			= [ "dvthn", "dvthn2"]
+	users			= [ "sonvqSVT","hungnguyenSVT"]
+	states			= [  Warning, Critical ]
+	interval 		= 0
+
+	assign where match("*ifCheck*ge*", service.display_name) && match("*AGG*",  host.name)
+	assign where match("*ifCheck*xe*", service.display_name) && match("*AGG*",  host.name)
+}
+
+apply Notification "Access_Interface_Status_NTL-BTL-THO-CGY" to Service {
+	import "mail-service-notification"
+	import "NTL-BTL-THO-CGY-Noti"
+	
+	states			= [  Critical ]
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*NTL*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*BTL*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*THO*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*CGY*",  host.name)
+}
+
+apply Notification "Access_Interface_Status_DDA-BDH-HBT-HKM" to Service {
+	import "mail-service-notification"
+	import "DDA-BDH-HBT-HKM-Noti"
+	
+	states			= [  Critical ]
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*DDA*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*BDH*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*HBT*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*HKM*",  host.name)
+}
+
+apply Notification "Access_Interface_Status_DAH-MLH-SSN-GLM-LBN" to Service {
+	import "mail-service-notification"
+	import "DAH-MLH-SSN-GLM-LBN-Noti"
+	
+	states			= [  Critical ]
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*DAH*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*MLH*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*SSN*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*GLM*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*LBN*",  host.name)
+}
+
+
+apply Notification "Access_Interface_Status_HMI-TXN-TTI" to Service {
+	import "mail-service-notification"
+	import "HMI-TXN-TTI-Noti"
+	
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*HMI*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*TXN*",  host.name)
+	assign where match("*ifCheck*", service.display_name) && match("*CSR*",  host.name) && match("*TTI*",  host.name)
+}
+
+
+
+apply Notification "Environment_status_NTL-BTL-THO-CGY" to Service {
+	import 	"mail-service-notification"
+	import "NTL-BTL-THO-CGY-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*NTL*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*BTL*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*THO*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*CGY*",  host.name)
+	
+}
+
+apply Notification "Environment_status_DDA-BDH-HBT-HKM" to Service {
+	import 	"mail-service-notification"
+	import "DDA-BDH-HBT-HKM-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*DDA*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*BDH*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*HBT*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*HKM*",  host.name)
+
+}
+
+apply Notification "Environment_status_DAH-MLH-SSN-GLM-LBN" to Service {
+	import 	"mail-service-notification"
+	import "DAH-MLH-SSN-GLM-LBN-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*DAH*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*MLH*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*SSN*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*GLM*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*LBN*",  host.name)
+}
+
+apply Notification "Environment_status_HMI-TXN-TTI" to Service {
+	import 	"mail-service-notification"
+	import "HMI-TXN-TTI-Noti"
+	
+	states			= [ Warning, Critical ]
+	
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*HMI*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*TXN*",  host.name)
+	assign where	service.vars.service_type == "ENVIRONMENT" && match("*CSR*",  host.name) && match("*TTI*",  host.name)
+
+}
+
+
+
+
+apply Notification "CPU_status_NTL-BTL-THO-CGY" to Service {
+	import 	"mail-service-notification"
+	import "NTL-BTL-THO-CGY-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*NTL*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*BTL*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*THO*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*CGY*",  host.name)
+	
+}
+
+apply Notification "CPU_status_DDA-BDH-HBT-HKM" to Service {
+	import 	"mail-service-notification"
+	import "DDA-BDH-HBT-HKM-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*DDA*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*BDH*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*HBT*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*HKM*",  host.name)
+
+}
+
+apply Notification "CPU_status_DAH-MLH-SSN-GLM-LBN" to Service {
+	import 	"mail-service-notification"
+	import "DAH-MLH-SSN-GLM-LBN-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*DAH*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*MLH*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*SSN*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*GLM*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*LBN*",  host.name)
+}
+
+apply Notification "CPU_status_HMI-TXN-TTI" to Service {
+	import 	"mail-service-notification"
+	import "HMI-TXN-TTI-Noti"
+	
+	states			= [ Warning, Critical ]
+	
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*HMI*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*TXN*",  host.name)
+	assign where	service.vars.service_type == "CPU" && match("*CSR*",  host.name) && match("*TTI*",  host.name)
+
+}
+
+
+
+
+
+apply Notification "RAM_status_NTL-BTL-THO-CGY" to Service {
+	import 	"mail-service-notification"
+	import "NTL-BTL-THO-CGY-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*NTL*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*BTL*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*THO*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*CGY*",  host.name)
+	
+}
+
+apply Notification "RAM_status_DDA-BDH-HBT-HKM" to Service {
+	import 	"mail-service-notification"
+	import "DDA-BDH-HBT-HKM-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*DDA*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*BDH*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*HBT*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*HKM*",  host.name)
+
+}
+
+apply Notification "RAM_status_DAH-MLH-SSN-GLM-LBN" to Service {
+	import 	"mail-service-notification"
+	import "DAH-MLH-SSN-GLM-LBN-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*DAH*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*MLH*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*SSN*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*GLM*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*LBN*",  host.name)
+}
+
+apply Notification "RAM_status_HMI-TXN-TTI" to Service {
+	import 	"mail-service-notification"
+	import "HMI-TXN-TTI-Noti"
+	
+	states			= [ Warning, Critical ]
+	
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*HMI*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*TXN*",  host.name)
+	assign where	service.vars.service_type == "RAM" && match("*CSR*",  host.name) && match("*TTI*",  host.name)
+
+}
+
+
+apply Notification "TEMPERATURE_status_NTL-BTL-THO-CGY" to Service {
+	import 	"mail-service-notification"
+	import "NTL-BTL-THO-CGY-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*NTL*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*BTL*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*THO*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*CGY*",  host.name)
+	
+}
+
+apply Notification "TEMPERATURE_status_DDA-BDH-HBT-HKM" to Service {
+	import 	"mail-service-notification"
+	import "DDA-BDH-HBT-HKM-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*DDA*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*BDH*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*HBT*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*HKM*",  host.name)
+
+}
+
+apply Notification "TEMPERATURE_status_DAH-MLH-SSN-GLM-LBN" to Service {
+	import 	"mail-service-notification"
+	import "DAH-MLH-SSN-GLM-LBN-Noti"
+	
+	states			= [ Warning, Critical ]
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*DAH*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*MLH*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*SSN*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*GLM*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*LBN*",  host.name)
+}
+
+apply Notification "TEMPERATURE_status_HMI-TXN-TTI" to Service {
+	import 	"mail-service-notification"
+	import "HMI-TXN-TTI-Noti"
+	
+	states			= [ Warning, Critical ]
+	
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*HMI*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*TXN*",  host.name)
+	assign where	service.vars.service_type == "TEMPERATURE" && match("*CSR*",  host.name) && match("*TTI*",  host.name)
+
+}
