@@ -1,0 +1,2222 @@
+
+object Host "CSR_HN_BDH_THU_LE_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.143"
+  display_name = "CSR_HN_BDH_THU_LE_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_172_NGOC_KHANH_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.132"
+  display_name = "CSR_HN_BDH_172_NGOC_KHANH_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_381_DOI_CAN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.133"
+  display_name = "CSR_HN_BDH_381_DOI_CAN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_521_KIM_MA_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.142"
+  display_name = "CSR_HN_BDH_521_KIM_MA_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_CC_VIGLACERA_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.15"
+  display_name = "CSR_HN_BDH_CC_VIGLACERA_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_CC266_DOI_CAN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.14"
+  display_name = "CSR_HN_BDH_CC266_DOI_CAN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_DOI_NHAN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.18"
+  display_name = "CSR_HN_BDH_DOI_NHAN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_LAC_TRUNG_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.5"
+  display_name = "CSR_HN_HBT_LAC_TRUNG_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_HOE_NHAI" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.175"
+  display_name = "CSR_HN_BDH_HOE_NHAI"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_LOTTE_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.232"
+  display_name = "CSR_HN_BDH_LOTTE_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_NGO_NUI_TRUC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.35"
+  display_name = "CSR_HN_BDH_NGO_NUI_TRUC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_PHAN_DINH_PHUNG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.163"
+  display_name = "CSR_HN_BDH_PHAN_DINH_PHUNG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_PHAN_KE_BINH" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.11"
+  display_name = "CSR_HN_BDH_PHAN_KE_BINH"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_PHO_VAN_PHUC_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.41"
+  display_name = "CSR_HN_BDH_PHO_VAN_PHUC_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_VIEN_E" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.31"
+  display_name = "CSR_HN_BTL_VIEN_E"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_NAM_THANG_LONG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.146"
+  display_name = "CSR_HN_BTL_NAM_THANG_LONG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_METRO" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.203"
+  display_name = "CSR_HN_BTL_METRO"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_KDT_RESCO" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.206"
+  display_name = "CSR_HN_BTL_KDT_RESCO"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_CAO_DINH" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.155"
+  display_name = "CSR_HN_BTL_CAO_DINH"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_GREEN_STAR_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.247"
+  display_name = "CSR_HN_BTL_GREEN_STAR_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_CT2A_HOANG_QUOC_VIET_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.42"
+  display_name = "CSR_HN_BTL_CT2A_HOANG_QUOC_VIET_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_DH_DIEN_LUC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.252"
+  display_name = "CSR_HN_CGY_DH_DIEN_LUC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_AN_BINH_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.174"
+  display_name = "CSR_HN_BTL_AN_BINH_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_CAU_GIAY_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.3"
+  display_name = "CSR_HN_CGY_CAU_GIAY_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_VIEN_E_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.172"
+  display_name = "CSR_HN_BTL_VIEN_E_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_YEN_HOA_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.254"
+  display_name = "CSR_HN_CGY_YEN_HOA_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_VIMECO_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.241"
+  display_name = "CSR_HN_CGY_VIMECO_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TRAN_THAI_TONG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.26"
+  display_name = "CSR_HN_CGY_TRAN_THAI_TONG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TULTRACO_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.164"
+  display_name = "CSR_HN_CGY_TULTRACO_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TU_LIEM" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.147"
+  display_name = "CSR_HN_CGY_TU_LIEM"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TRUNG_YEN_PLAZA_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.194"
+  display_name = "CSR_HN_CGY_TRUNG_YEN_PLAZA_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TONG_CUC_HAI_QUAN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.24"
+  display_name = "CSR_HN_CGY_TONG_CUC_HAI_QUAN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_NGUYEN_PHONG_SAC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.8"
+  display_name = "CSR_HN_CGY_NGUYEN_PHONG_SAC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_N105_NGUYEN_PHONG_SAC_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.153"
+  display_name = "CSR_HN_CGY_N105_NGUYEN_PHONG_SAC_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_QUAN_HOA" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.253"
+  display_name = "CSR_HN_CGY_QUAN_HOA"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_MANDARIN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.234"
+  display_name = "CSR_HN_CGY_MANDARIN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_HOC_VIEN_QUAN_SU_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.251"
+  display_name = "CSR_HN_CGY_HOC_VIEN_QUAN_SU_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_HOA_BINH_OFFICE_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.181"
+  display_name = "CSR_HN_CGY_HOA_BINH_OFFICE_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_GRAND_CHARMVIT_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.13"
+  display_name = "CSR_HN_CGY_GRAND_CHARMVIT_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_F4_TRUNG_YEN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.235"
+  display_name = "CSR_HN_CGY_F4_TRUNG_YEN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_EURO_WINDOW_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.185"
+  display_name = "CSR_HN_CGY_EURO_WINDOW_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_CMC_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.207"
+  display_name = "CSR_HN_CGY_CMC_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_G4_TRUNG_YEN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.191"
+  display_name = "CSR_HN_CGY_G4_TRUNG_YEN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_299_CAU_GIAY_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.17"
+  display_name = "CSR_HN_CGY_299_CAU_GIAY_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_28T_THANG_LONG_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.4"
+  display_name = "CSR_HN_CGY_28T_THANG_LONG_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_24T1_THNC_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.151"
+  display_name = "CSR_HN_CGY_24T1_THNC_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TCT_789_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.246"
+  display_name = "CSR_HN_CGY_TCT_789_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_LANG_TRUNG_KINH_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.46"
+  display_name = "CSR_HN_CGY_LANG_TRUNG_KINH_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_CHUA_LANG_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.173"
+  display_name = "CSR_HN_DDA_CHUA_LANG_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_NGUYEN_THI_DINH_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.12"
+  display_name = "CSR_HN_CGY_NGUYEN_THI_DINH_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TRAN_DUY_HUNG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.6"
+  display_name = "CSR_HN_CGY_TRAN_DUY_HUNG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_3D_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.2"
+  display_name = "CSR_HN_CGY_3D_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TRUNG_KINH_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.182"
+  display_name = "CSR_HN_CGY_TRUNG_KINH_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_HOA_MUC_TOWER" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.7"
+  display_name = "CSR_HN_CGY_HOA_MUC_TOWER"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_NGO_1_KHAM_THIEN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.244"
+  display_name = "CSR_HN_DDA_NGO_1_KHAM_THIEN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_187_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.144"
+  display_name = "CSR_HN_DDA_187_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_BV_BACH_MAI_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.16"
+  display_name = "CSR_HN_DDA_BV_BACH_MAI_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_CHO_KHAM_THIEN_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.192"
+  display_name = "CSR_HN_DDA_CHO_KHAM_THIEN_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_CHUA_LANG_5" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.34"
+  display_name = "CSR_HN_DDA_CHUA_LANG_5"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_HO_BAN_NGUYET" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.242"
+  display_name = "CSR_HN_DDA_HO_BAN_NGUYET"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_KHUONG_THUONG_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.33"
+  display_name = "CSR_HN_DDA_KHUONG_THUONG_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_KIM_HOA" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.38"
+  display_name = "CSR_HN_DDA_KIM_HOA"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_LANG_HA_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.44"
+  display_name = "CSR_HN_DDA_LANG_HA_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_LANG_THUONG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.25"
+  display_name = "CSR_HN_DDA_LANG_THUONG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_M3_M4_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.165"
+  display_name = "CSR_HN_DDA_M3_M4_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_MIPEC_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.243"
+  display_name = "CSR_HN_DDA_MIPEC_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_PHAO_DAI_LANG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.13.166"
+  display_name = "CSR_HN_DDA_PHAO_DAI_LANG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_PHAO_DAI_LANG_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.182"
+  display_name = "CSR_HN_DDA_PHAO_DAI_LANG_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_PHUONG_MAI_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.154"
+  display_name = "CSR_HN_DDA_PHUONG_MAI_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_THINH_QUANG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.179"
+  display_name = "CSR_HN_DDA_THINH_QUANG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_THINH_QUANG_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.150"
+  display_name = "CSR_HN_DDA_THINH_QUANG_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_TRUC_KHE" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.152"
+  display_name = "CSR_HN_DDA_TRUC_KHE"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_VINH_HO" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.239"
+  display_name = "CSR_HN_DDA_VINH_HO"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_25_LE_DAI_HANH_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.53"
+  display_name = "CSR_HN_HBT_25_LE_DAI_HANH_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_DE_TO_HOANG_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.62"
+  display_name = "CSR_HN_HBT_DE_TO_HOANG_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_CAU_VINH_TUY_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.43"
+  display_name = "CSR_HN_HBT_CAU_VINH_TUY_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_VTC_LAC_TRUNG_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.42"
+  display_name = "CSR_HN_HBT_VTC_LAC_TRUNG_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_CHUA_VUA" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.243"
+  display_name = "CSR_HN_HBT_CHUA_VUA"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_DAM_TRAU_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.249"
+  display_name = "CSR_HN_HBT_DAM_TRAU_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_DAM_TRAU_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.46"
+  display_name = "CSR_HN_HBT_DAM_TRAU_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_DH_XAY_DUNG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.252"
+  display_name = "CSR_HN_HBT_DH_XAY_DUNG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_DO_NGOC_DU" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.163"
+  display_name = "CSR_HN_HBT_DO_NGOC_DU"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_LAC_TRUNG_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.149"
+  display_name = "CSR_HN_HBT_LAC_TRUNG_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_NGO_THI_NHAM_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.60"
+  display_name = "CSR_HN_HBT_NGO_THI_NHAM_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_NGUYEN_BINH_KHIEM_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.144"
+  display_name = "CSR_HN_HBT_NGUYEN_BINH_KHIEM_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_O_DONG_MAC_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.162"
+  display_name = "CSR_HN_HBT_O_DONG_MAC_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_PHO_VONG_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.164"
+  display_name = "CSR_HN_HBT_PHO_VONG_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_THINH_YEN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.61"
+  display_name = "CSR_HN_HBT_THINH_YEN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_VAN_DON_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.180"
+  display_name = "CSR_HN_HBT_VAN_DON_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HBT_VAN_HO_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.44"
+  display_name = "CSR_HN_HBT_VAN_HO_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_CAU_GO" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.254"
+  display_name = "CSR_HN_HKM_CAU_GO"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_LUONG_NGOC_QUYEN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.183"
+  display_name = "CSR_HN_HKM_LUONG_NGOC_QUYEN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_VIETCOMBANK_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.160"
+  display_name = "CSR_HN_HKM_VIETCOMBANK_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_HA_TRUNG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.151"
+  display_name = "CSR_HN_HKM_HA_TRUNG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_NGAN_HANG_NHA_NUOC_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.175"
+  display_name = "CSR_HN_HKM_NGAN_HANG_NHA_NUOC_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_LY_DAO_THANH" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.244"
+  display_name = "CSR_HN_HKM_LY_DAO_THANH"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_CHO_HANG_DA_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.174"
+  display_name = "CSR_HN_HKM_CHO_HANG_DA_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_CAPITAL_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.172"
+  display_name = "CSR_HN_HKM_CAPITAL_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_BO_TAI_CHINH_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.54"
+  display_name = "CSR_HN_HKM_BO_TAI_CHINH_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_TUNG_SING_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.139"
+  display_name = "CSR_HN_HKM_TUNG_SING_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_MELIA_HOTEL_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.242"
+  display_name = "CSR_HN_HKM_MELIA_HOTEL_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_INTERNATIONAL_CENTRE_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.170"
+  display_name = "CSR_HN_HKM_INTERNATIONAL_CENTRE_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_HAM_TU_QUAN_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.40"
+  display_name = "CSR_HN_HKM_HAM_TU_QUAN_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HKM_LO_SU" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.169"
+  display_name = "CSR_HN_HKM_LO_SU"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_VINH_HUNG_6" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.140"
+  display_name = "CSR_HN_HMI_VINH_HUNG_6"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_NGUYEN_XIEN_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.181"
+  display_name = "CSR_HN_HMI_NGUYEN_XIEN_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_LINH_DAM" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.41"
+  display_name = "CSR_HN_HMI_LINH_DAM"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_LINH_DAM_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.161"
+  display_name = "CSR_HN_HMI_LINH_DAM_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_THINH_LIET_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.241"
+  display_name = "CSR_HN_HMI_THINH_LIET_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_VINH_TUY_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.141"
+  display_name = "CSR_HN_HMI_VINH_TUY_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_THANH_TRI_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.59"
+  display_name = "CSR_HN_HMI_THANH_TRI_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_TAM_TRINH_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.143"
+  display_name = "CSR_HN_HMI_TAM_TRINH_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_DAI_KIM" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.250"
+  display_name = "CSR_HN_HMI_DAI_KIM"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_NM_SU_VIGLACERA" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.11.251"
+  display_name = "CSR_HN_HMI_NM_SU_VIGLACERA"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_NGUYEN_DUC_CANH_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.99"
+  display_name = "CSR_HN_HMI_NGUYEN_DUC_CANH_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_NGU_NHAC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.107"
+  display_name = "CSR_HN_HMI_NGU_NHAC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_NAM_DU" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.224"
+  display_name = "CSR_HN_HMI_NAM_DU"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_LINH_NAM_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.215"
+  display_name = "CSR_HN_HMI_LINH_NAM_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_LINH_NAM_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.233"
+  display_name = "CSR_HN_HMI_LINH_NAM_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_HOANG_VAN_THU" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.207"
+  display_name = "CSR_HN_HMI_HOANG_VAN_THU"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_HOANG_MAI" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.95"
+  display_name = "CSR_HN_HMI_HOANG_MAI"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_DAI_DONG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.234"
+  display_name = "CSR_HN_HMI_DAI_DONG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_CANG_PHA_DEN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.214"
+  display_name = "CSR_HN_HMI_CANG_PHA_DEN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_A5_DAI_KIM_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.235"
+  display_name = "CSR_HN_HMI_A5_DAI_KIM_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_A3_NGUYEN_DUC_CANH_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.209"
+  display_name = "CSR_HN_HMI_A3_NGUYEN_DUC_CANH_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_SAI_DONG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.197"
+  display_name = "CSR_HN_LBN_SAI_DONG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_TU_DINH" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.98"
+  display_name = "CSR_HN_LBN_TU_DINH"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_THUONG_CAT_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.103"
+  display_name = "CSR_HN_LBN_THUONG_CAT_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_TU_LIEM_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.228"
+  display_name = "CSR_HN_CGY_TU_LIEM_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_TCT_QUAN_LY_BAY_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.105"
+  display_name = "CSR_HN_LBN_TCT_QUAN_LY_BAY_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_SILVER_WINGS_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.93"
+  display_name = "CSR_HN_LBN_SILVER_WINGS_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_SAVICO_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.236"
+  display_name = "CSR_HN_LBN_SAVICO_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_SAN_BAY_GIA_LAM" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.213"
+  display_name = "CSR_HN_LBN_SAN_BAY_GIA_LAM"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_28T_THANG_LONG_IBC_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.104"
+  display_name = "CSR_HN_CGY_28T_THANG_LONG_IBC_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_NGOC_THUY" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.94"
+  display_name = "CSR_HN_LBN_NGOC_THUY"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_DUC_HOA" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.198"
+  display_name = "CSR_HN_LBN_DUC_HOA"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_DTM_NGOC_THUY" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.106"
+  display_name = "CSR_HN_LBN_DTM_NGOC_THUY"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_LBN_PLASCHEM_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.97"
+  display_name = "CSR_HN_LBN_PLASCHEM_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_ME_TRI_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.208"
+  display_name = "CSR_HN_NTL_ME_TRI_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_HO_ME_TRI" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.224"
+  display_name = "CSR_HN_NTL_HO_ME_TRI"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_DAI_MO" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.63"
+  display_name = "CSR_HN_NTL_DAI_MO"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_CT2_TRUNG_VAN_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.142"
+  display_name = "CSR_HN_NTL_CT2_TRUNG_VAN_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_CAU_DIEN_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.13"
+  display_name = "CSR_HN_NTL_CAU_DIEN_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_AN_THAI" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.44"
+  display_name = "CSR_HN_NTL_AN_THAI"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_HO_TUNG_MAU_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.241"
+  display_name = "CSR_HN_CGY_HO_TUNG_MAU_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_PHO_NGUYEN_HOANG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.61"
+  display_name = "CSR_HN_NTL_PHO_NGUYEN_HOANG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_DTM_MY_DINH" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.22"
+  display_name = "CSR_HN_NTL_DTM_MY_DINH"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_CEO_MY_DINH_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.221"
+  display_name = "CSR_HN_NTL_CEO_MY_DINH_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_PHU_DO_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.136"
+  display_name = "CSR_HN_NTL_PHU_DO_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_MY_DINH_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.76"
+  display_name = "CSR_HN_NTL_MY_DINH_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_HANDICO_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.105"
+  display_name = "CSR_HN_NTL_HANDICO_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_THO_NGUYEN_HOANG_TON_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.112"
+  display_name = "CSR_HN_THO_NGUYEN_HOANG_TON_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_THO_GOLDEN_WESTLAKE_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.125"
+  display_name = "CSR_HN_THO_GOLDEN_WESTLAKE_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_THO_VO_CHI_CONG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.205"
+  display_name = "CSR_HN_THO_VO_CHI_CONG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_THO_LAC_LONG_QUAN_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.251"
+  display_name = "CSR_HN_THO_LAC_LONG_QUAN_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_LANG_NGHIA_DO_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.217"
+  display_name = "CSR_HN_CGY_LANG_NGHIA_DO_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_THO_XUAN_DIEU" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.231"
+  display_name = "CSR_HN_THO_XUAN_DIEU"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_THO_PACKEXIM_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.111"
+  display_name = "CSR_HN_THO_PACKEXIM_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_DUYEN_HA_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.24"
+  display_name = "CSR_HN_TTI_DUYEN_HA_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_VINH_QUYNH" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.214"
+  display_name = "CSR_HN_TTI_VINH_QUYNH"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_LAC_THI" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.233"
+  display_name = "CSR_HN_TTI_LAC_THI"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_DAI_ANG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.74"
+  display_name = "CSR_HN_TTI_DAI_ANG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_CAU_BUOU_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.15"
+  display_name = "CSR_HN_TTI_CAU_BUOU_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_BUU_CHINH_VAN_DIEN" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.16"
+  display_name = "CSR_BUU_CHINH_VAN_DIEN"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_DTM_TU_HIEP" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.106"
+  display_name = "CSR_HN_TTI_DTM_TU_HIEP"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_VINH_QUYNH_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.216"
+  display_name = "CSR_HN_TTI_VINH_QUYNH_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_HUU_HOA_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.18"
+  display_name = "CSR_HN_TTI_HUU_HOA_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_YEN_MY" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.242"
+  display_name = "CSR_HN_TTI_YEN_MY"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_QUYNH_DO" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.51"
+  display_name = "CSR_HN_TTI_QUYNH_DO"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_VNT_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.115"
+  display_name = "CSR_HN_TXN_VNT_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_NGUYEN_TUAN_5" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.204"
+  display_name = "CSR_HN_TXN_NGUYEN_TUAN_5"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_PHU_GIA_RESIDENCE_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.42"
+  display_name = "CSR_HN_TXN_PHU_GIA_RESIDENCE_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_NGUYEN_TRAI_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.31"
+  display_name = "CSR_HN_TXN_NGUYEN_TRAI_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_NGUYEN_TUAN_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.215"
+  display_name = "CSR_HN_TXN_NGUYEN_TUAN_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_262_NGUYEN_HUY_TUONG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.32"
+  display_name = "CSR_HN_TXN_262_NGUYEN_HUY_TUONG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_HAPULICO_21T_TOWER_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.123"
+  display_name = "CSR_HN_TXN_HAPULICO_21T_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_FAFILM" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.54"
+  display_name = "CSR_HN_TXN_FAFILM"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_QUAN_NHAN_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.52"
+  display_name = "CSR_HN_TXN_QUAN_NHAN_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_262_NGUYEN_HUY_TUONG_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.135"
+  display_name = "CSR_HN_TXN_262_NGUYEN_HUY_TUONG_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_VU_TRONG_PHUNG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.126"
+  display_name = "CSR_HN_TXN_VU_TRONG_PHUNG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_25T_LICOGI_13_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.34"
+  display_name = "CSR_HN_TXN_25T_LICOGI_13_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_198_NGUYEN_TUAN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.26"
+  display_name = "CSR_HN_TXN_198_NGUYEN_TUAN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_17T1_LICOGI13_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.35"
+  display_name = "CSR_HN_TXN_17T1_LICOGI13_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_ROYAL_CITY_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.27"
+  display_name = "CSR_HN_TXN_ROYAL_CITY_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_TRUNG_HOA" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.104"
+  display_name = "CSR_HN_TXN_TRUNG_HOA"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TXN_NHAN_CHINH_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.33"
+  display_name = "CSR_HN_TXN_NHAN_CHINH_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_HOANG_LINH_TOWER" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.143"
+  display_name = "CSR_HN_CGY_HOANG_LINH_TOWER"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_HOANG_QUOC_VIET_3" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.144"
+  display_name = "CSR_HN_BTL_HOANG_QUOC_VIET_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_PHUC_DIEN_4" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.146"
+  display_name = "CSR_HN_NTL_PHUC_DIEN_4"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_CGY_CUC_TAN_SO_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.223"
+  display_name = "CSR_HN_CGY_CUC_TAN_SO_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_MEGASTAR_DOMINIUM_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.211"
+  display_name = "CSR_HN_BTL_MEGASTAR_DOMINIUM_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_SKY_LINE_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.62"
+  display_name = "CSR_HN_BDH_SKY_LINE_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BDH_SOFITEL_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.254"
+  display_name = "CSR_HN_BDH_SOFITEL_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_BTL_34T_CAU_DIEN_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.55"
+  display_name = "CSR_HN_BTL_34T_CAU_DIEN_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_DDA_27_HUYNH_THUC_KHANG_IBC" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.145"
+  display_name = "CSR_HN_DDA_27_HUYNH_THUC_KHANG_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_DINH_CONG" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.212"
+  display_name = "CSR_HN_HMI_DINH_CONG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_CEO_MY_DINH_IBC_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.8.225"
+  display_name = "CSR_HN_NTL_CEO_MY_DINH_IBC_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR2_HN_CGY_VIEN_TIN_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.12.17"
+  display_name = "CSR2_HN_CGY_VIEN_TIN_2"
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR2_HN_CGY_NGUYEN_PHONG_SAC_3_IBC_2" {
+  import "ACX2100-2nd-CSR-Templates"
+  import "generic-host"
+  address = "10.248.8.76"
+  display_name = "CSR2_HN_CGY_NGUYEN_PHONG_SAC_3_IBC_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR2_HN_CGY_BIG_C_2" {
+  import "ACX2100-2nd-CSR-Templates"
+  import "generic-host"
+  address = "10.248.8.6"
+  display_name = "CSR2_HN_CGY_BIG_C_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR2_HN_CGY_T6_TONG_CUC_V_IBC_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.9.251"
+  display_name = "CSR2_HN_CGY_T6_TONG_CUC_V_IBC_2"
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR2_HN_NTL_PHAM_HUNG_2" {
+  import "generic-host"
+  import "ACX2100-2nd-CSR-Templates"
+  address = "10.248.10.233"
+  display_name = "CSR2_HN_NTL_PHAM_HUNG_2"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}

@@ -5056,6 +5056,17 @@ object Host "ME-CSR-HNI-C74.1---HN_THO_QUANG_TAY_2" {
   vars.interface["ge-1/2/0"].if_index = 527
 }
 
+object Host "ME-CSR-HNI-C74.7---HN_THO_THUONG_THUY" {
+  import "generic-host"
+  import "ACX2100-CSR-Templates"
+  address = "10.248.12.11"
+  display_name = "ME-CSR-HNI-C74.7---HN_THO_THUONG_THUY"
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
 object Host "ME-CSR-HNI-C101.4---HN_CGY_XUAN_THUY" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
@@ -6669,6 +6680,54 @@ object Host "ME-CSR-HNI-C22.4---HN_HBT_TO_HIEN_THANH" {
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
+object Host "CSR_HN_HMI_NAM_DO_TOWER_IBC" {
+  import "ACX2100-2nd-CSR-Templates"
+  import "ACX2100-CSR-Templates"
+  import "generic-host"
+  address = "10.248.10.7"
+  display_name = "CSR_HN_HMI_NAM_DO_TOWER_IBC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_HMI_DINH_CONG_HA_3" {
+  import "ACX2100-2nd-CSR-Templates"
+  import "ACX2100-CSR-Templates"
+  import "generic-host"
+  address = "10.248.10.5"
+  display_name = "CSR_HN_HMI_DINH_CONG_HA_3"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_TTI_XOM_VUC" {
+  import "ACX2100-2nd-CSR-Templates"
+  import "ACX2100-CSR-Templates"
+  import "generic-host"
+  address = "10.248.10.4"
+  display_name = "CSR_HN_TTI_XOM_VUC"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
+object Host "CSR_HN_NTL_PHUNG_KHOANG" {
+  import "ACX2100-2nd-CSR-Templates"
+  import "ACX2100-CSR-Templates"
+  import "generic-host"
+  address = "10.248.10.6"
+  display_name = "CSR_HN_NTL_PHUNG_KHOANG"
+  vars.interface["ge-1/1/1"].if_index = 524
+  vars.interface["ge-1/1/0"].if_index = 523
+  vars.interface["ge-1/0/0"].if_index = 519
+  vars.interface["ge-1/2/0"].if_index = 527
+}
+
 object Host "ME-CSR-HNI-C103.1---HN_TXN_QUAN_NHAN_3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
@@ -6840,1703 +6899,1622 @@ object Host "ME-CSR-HNI-C104.2---HN_TXN_VU_TRONG_PHUNG" {
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C105.2---HN_TXN_VNT_TOWER_IBC" {
+object Host "ME-CSR-HNI-C105.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.212"
-  display_name = "ME-CSR-HNI-C105.2---HN_TXN_VNT_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C105.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C105.5---HN_TXN_96_DINH_CONG_IBC" {
+object Host "ME-CSR-HNI-C105.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.215"
-  display_name = "ME-CSR-HNI-C105.5---HN_TXN_96_DINH_CONG_IBC"
+  display_name = "ME-CSR-HNI-C105.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C105.3---HN_TXN_VUONG_THUA_VU_2" {
+object Host "ME-CSR-HNI-C105.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.213"
-  display_name = "ME-CSR-HNI-C105.3---HN_TXN_VUONG_THUA_VU_2"
+  display_name = "ME-CSR-HNI-C105.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C105.4---HN_TXN_NGUYEN_VAN_TROI" {
+object Host "ME-CSR-HNI-C105.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.214"
-  display_name = "ME-CSR-HNI-C105.4---HN_TXN_NGUYEN_VAN_TROI"
+  display_name = "ME-CSR-HNI-C105.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.4---HN_NTL_ME_TRI_2" {
+object Host "ME-CSR-HNI-C106.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.246"
-  display_name = "ME-CSR-HNI-C106.4---HN_NTL_ME_TRI_2"
+  display_name = "ME-CSR-HNI-C106.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.8---HN_NTL_CEO_MY_DINH_IBC_2" {
+object Host "ME-CSR-HNI-C106.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.250"
-  display_name = "ME-CSR-HNI-C106.8---HN_NTL_CEO_MY_DINH_IBC_2"
+  display_name = "ME-CSR-HNI-C106.8"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.2---HN_NTL_AN_THAI" {
+object Host "ME-CSR-HNI-C106.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.244"
-  display_name = "ME-CSR-HNI-C106.2---HN_NTL_AN_THAI"
+  display_name = "ME-CSR-HNI-C106.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.9---HN_NTL_HANDICO_TOWER_IBC" {
+object Host "ME-CSR-HNI-C106.9" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.251"
-  display_name = "ME-CSR-HNI-C106.9---HN_NTL_HANDICO_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C106.9"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.7---HN_NTL_CEO_MY_DINH_IBC" {
+object Host "ME-CSR-HNI-C106.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.249"
-  display_name = "ME-CSR-HNI-C106.7---HN_NTL_CEO_MY_DINH_IBC"
+  display_name = "ME-CSR-HNI-C106.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.1---HN_NTL_PHU_DO_4" {
+object Host "ME-CSR-HNI-C106.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.243"
-  display_name = "ME-CSR-HNI-C106.1---HN_NTL_PHU_DO_4"
+  display_name = "ME-CSR-HNI-C106.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.5---HN_NTL_CT2_TRUNG_VAN_TOWER_IBC" {
+object Host "ME-CSR-HNI-C106.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.247"
-  display_name = "ME-CSR-HNI-C106.5---HN_NTL_CT2_TRUNG_VAN_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C106.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.6---HN_NTL_HO_ME_TRI" {
+object Host "ME-CSR-HNI-C106.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.248"
-  display_name = "ME-CSR-HNI-C106.6---HN_NTL_HO_ME_TRI"
+  display_name = "ME-CSR-HNI-C106.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C106.3---HN_NTL_DAI_MO" {
+object Host "ME-CSR-HNI-C106.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.245"
-  display_name = "ME-CSR-HNI-C106.3---HN_NTL_DAI_MO"
+  display_name = "ME-CSR-HNI-C106.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C107.4---HN_NTL_PHO_NGUYEN_HOANG" {
+object Host "ME-CSR-HNI-C107.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.2"
-  display_name = "ME-CSR-HNI-C107.4---HN_NTL_PHO_NGUYEN_HOANG"
+  display_name = "ME-CSR-HNI-C107.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C107.2---HN_NTL_CAU_DIEN_3" {
+object Host "ME-CSR-HNI-C107.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.254"
-  display_name = "ME-CSR-HNI-C107.2---HN_NTL_CAU_DIEN_3"
+  display_name = "ME-CSR-HNI-C107.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C107.5---HN_NTL_MY_DINH_2" {
+object Host "ME-CSR-HNI-C107.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.3"
-  display_name = "ME-CSR-HNI-C107.5---HN_NTL_MY_DINH_2"
+  display_name = "ME-CSR-HNI-C107.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C107.7---HN_NTL_NHAN_MY_5" {
+object Host "ME-CSR-HNI-C107.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.5"
-  display_name = "ME-CSR-HNI-C107.7---HN_NTL_NHAN_MY_5"
+  display_name = "ME-CSR-HNI-C107.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C107.3---HN_NTL_PHUC_DIEN_4" {
+object Host "ME-CSR-HNI-C107.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.1"
-  display_name = "ME-CSR-HNI-C107.3---HN_NTL_PHUC_DIEN_4"
+  display_name = "ME-CSR-HNI-C107.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C107.6---HN_NTL_NHAN_MY_2" {
+object Host "ME-CSR-HNI-C107.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.4"
-  display_name = "ME-CSR-HNI-C107.6---HN_NTL_NHAN_MY_2"
+  display_name = "ME-CSR-HNI-C107.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C108.3---HN_BTL_CAO_DINH" {
+object Host "ME-CSR-HNI-C108.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.179"
-  display_name = "ME-CSR-HNI-C108.3---HN_BTL_CAO_DINH"
+  display_name = "ME-CSR-HNI-C108.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C108.7---HN_BTL_KDT_RESCO" {
+object Host "ME-CSR-HNI-C108.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.183"
-  display_name = "ME-CSR-HNI-C108.7---HN_BTL_KDT_RESCO"
+  display_name = "ME-CSR-HNI-C108.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C108.6---HN_BTL_AN_BINH_TOWER_IBC" {
+object Host "ME-CSR-HNI-C108.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.182"
-  display_name = "ME-CSR-HNI-C108.6---HN_BTL_AN_BINH_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C108.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C108.5---HN_BTL_NAM_THANG_LONG" {
+object Host "ME-CSR-HNI-C108.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.181"
-  display_name = "ME-CSR-HNI-C108.5---HN_BTL_NAM_THANG_LONG"
+  display_name = "ME-CSR-HNI-C108.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C108.1---HN_THO_NGUYEN_HOANG_TON_2" {
+object Host "ME-CSR-HNI-C108.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.177"
-  display_name = "ME-CSR-HNI-C108.1---HN_THO_NGUYEN_HOANG_TON_2"
+  display_name = "ME-CSR-HNI-C108.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C109.2---HN_BTL_HOANG_LIEN" {
+object Host "ME-CSR-HNI-C109.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.14"
-  display_name = "ME-CSR-HNI-C109.2---HN_BTL_HOANG_LIEN"
+  display_name = "ME-CSR-HNI-C109.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C109.1---HN_BTL_ECOHOME1_IBC" {
+object Host "ME-CSR-HNI-C109.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.10.13"
-  display_name = "ME-CSR-HNI-C109.1---HN_BTL_ECOHOME1_IBC"
+  display_name = "ME-CSR-HNI-C109.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C110.4---HN_BTL_HOANG_QUOC_VIET_3" {
+object Host "ME-CSR-HNI-C110.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.190"
-  display_name = "ME-CSR-HNI-C110.4---HN_BTL_HOANG_QUOC_VIET_3"
+  display_name = "ME-CSR-HNI-C110.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C110.2---HN_CGY_DH_DIEN_LUC" {
+object Host "ME-CSR-HNI-C110.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.188"
-  display_name = "ME-CSR-HNI-C110.2---HN_CGY_DH_DIEN_LUC"
+  display_name = "ME-CSR-HNI-C110.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C110.3---HN_CGY_HOC_VIEN_QUAN_SU_IBC" {
+object Host "ME-CSR-HNI-C110.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.189"
-  display_name = "ME-CSR-HNI-C110.3---HN_CGY_HOC_VIEN_QUAN_SU_IBC"
+  display_name = "ME-CSR-HNI-C110.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C110.5---HN_BTL_VIEN_E" {
+object Host "ME-CSR-HNI-C110.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.191"
-  display_name = "ME-CSR-HNI-C110.5---HN_BTL_VIEN_E"
+  display_name = "ME-CSR-HNI-C110.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C110.6---HN_BTL_METRO" {
+object Host "ME-CSR-HNI-C110.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.192"
-  display_name = "ME-CSR-HNI-C110.6---HN_BTL_METRO"
+  display_name = "ME-CSR-HNI-C110.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.3---HN_HKM_BO_TAI_CHINH_IBC" {
+object Host "ME-CSR-HNI-C111.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.79"
-  display_name = "ME-CSR-HNI-C111.3---HN_HKM_BO_TAI_CHINH_IBC"
+  display_name = "ME-CSR-HNI-C111.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.7---HN_HKM_TUNG_SINH_IBC" {
+object Host "ME-CSR-HNI-C111.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.83"
-  display_name = "ME-CSR-HNI-C111.7---HN_HKM_TUNG_SINH_IBC"
+  display_name = "ME-CSR-HNI-C111.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.2---HN_HKM_HA_TRUNG" {
+object Host "ME-CSR-HNI-C111.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.78"
-  display_name = "ME-CSR-HNI-C111.2---HN_HKM_HA_TRUNG"
+  display_name = "ME-CSR-HNI-C111.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.4---HN_HKM_LY_DAO_THANH" {
+object Host "ME-CSR-HNI-C111.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.80"
-  display_name = "ME-CSR-HNI-C111.4---HN_HKM_LY_DAO_THANH"
+  display_name = "ME-CSR-HNI-C111.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.1---HN_HKM_INTERNATIONAL_CENTRE_IBC" {
+object Host "ME-CSR-HNI-C111.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.77"
-  display_name = "ME-CSR-HNI-C111.1---HN_HKM_INTERNATIONAL_CENTRE_IBC"
+  display_name = "ME-CSR-HNI-C111.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.6---HN_HKM_VIETCOMBANK_IBC" {
+object Host "ME-CSR-HNI-C111.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.82"
-  display_name = "ME-CSR-HNI-C111.6---HN_HKM_VIETCOMBANK_IBC"
+  display_name = "ME-CSR-HNI-C111.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C111.5---HN_HKM_NGAN_HANG_NHA_NUOC_TOWER_IBC" {
+object Host "ME-CSR-HNI-C111.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.81"
-  display_name = "ME-CSR-HNI-C111.5---HN_HKM_NGAN_HANG_NHA_NUOC_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C111.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C112.4---HN_HKM_HAM_TU_QUAN_2" {
+object Host "ME-CSR-HNI-C112.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.90"
-  display_name = "ME-CSR-HNI-C112.4---HN_HKM_HAM_TU_QUAN_2"
+  display_name = "ME-CSR-HNI-C112.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C112.3---HN_HKM_CHO_HANG_DA_IBC" {
+object Host "ME-CSR-HNI-C112.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.89"
-  display_name = "ME-CSR-HNI-C112.3---HN_HKM_CHO_HANG_DA_IBC"
+  display_name = "ME-CSR-HNI-C112.3"
   vars.interface["ge-1/1/1"].if_index = 522
   vars.interface["ge-1/1/0"].if_index = 521
 }
 
-object Host "ME-CSR-HNI-C112.2---HN_HKM_CAPITAL_TOWER_IBC" {
+object Host "ME-CSR-HNI-C112.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.88"
-  display_name = "ME-CSR-HNI-C112.2---HN_HKM_CAPITAL_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C112.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C112.1---HN_HKM_MELIA_HOTEL_IBC" {
+object Host "ME-CSR-HNI-C112.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.87"
-  display_name = "ME-CSR-HNI-C112.1---HN_HKM_MELIA_HOTEL_IBC"
+  display_name = "ME-CSR-HNI-C112.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C113.8---HN_HMI_HOANG_VAN_THU" {
+object Host "ME-CSR-HNI-C113.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.254"
-  display_name = "ME-CSR-HNI-C113.8---HN_HMI_HOANG_VAN_THU"
+  display_name = "ME-CSR-HNI-C113.8"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C113.2---HN_HMI_DAI_DONG" {
+object Host "ME-CSR-HNI-C113.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.248"
-  display_name = "ME-CSR-HNI-C113.2---HN_HMI_DAI_DONG"
+  display_name = "ME-CSR-HNI-C113.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C113.5---HN_HMI_VINH_HUNG_6" {
+object Host "ME-CSR-HNI-C113.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.251"
-  display_name = "ME-CSR-HNI-C113.5---HN_HMI_VINH_HUNG_6"
+  display_name = "ME-CSR-HNI-C113.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C113.3---HN_HMI_CANG_PHA_DEN" {
+object Host "ME-CSR-HNI-C113.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.249"
-  display_name = "ME-CSR-HNI-C113.3---HN_HMI_CANG_PHA_DEN"
+  display_name = "ME-CSR-HNI-C113.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C113.6---HN_HMI_VINH_TUY_2" {
+object Host "ME-CSR-HNI-C113.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.252"
-  display_name = "ME-CSR-HNI-C113.6---HN_HMI_VINH_TUY_2"
+  display_name = "ME-CSR-HNI-C113.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C113.4---HN_HMI_THANH_TRI_2" {
+object Host "ME-CSR-HNI-C113.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.250"
-  display_name = "ME-CSR-HNI-C113.4---HN_HMI_THANH_TRI_2"
+  display_name = "ME-CSR-HNI-C113.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C113.7---HN_HMI_TAM_TRINH_3" {
+object Host "ME-CSR-HNI-C113.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.253"
-  display_name = "ME-CSR-HNI-C113.7---HN_HMI_TAM_TRINH_3"
+  display_name = "ME-CSR-HNI-C113.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C114.3---HN_HMI_HOANG_MAI" {
+object Host "ME-CSR-HNI-C114.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.81"
-  display_name = "ME-CSR-HNI-C114.3---HN_HMI_HOANG_MAI"
+  display_name = "ME-CSR-HNI-C114.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C114.7---HN_HMI_NGU_NHAC" {
+object Host "ME-CSR-HNI-C114.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.85"
-  display_name = "ME-CSR-HNI-C114.7---HN_HMI_NGU_NHAC"
+  display_name = "ME-CSR-HNI-C114.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C114.1---HN_HMI_NGUYEN_DUC_CANH_2" {
+object Host "ME-CSR-HNI-C114.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.79"
-  display_name = "ME-CSR-HNI-C114.1---HN_HMI_NGUYEN_DUC_CANH_2"
+  display_name = "ME-CSR-HNI-C114.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C114.6---HN_HMI_LINH_NAM_3" {
+object Host "ME-CSR-HNI-C114.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.84"
-  display_name = "ME-CSR-HNI-C114.6---HN_HMI_LINH_NAM_3"
+  display_name = "ME-CSR-HNI-C114.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C114.5---HN_HMI_LINH_NAM_4" {
+object Host "ME-CSR-HNI-C114.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.83"
-  display_name = "ME-CSR-HNI-C114.5---HN_HMI_LINH_NAM_4"
+  display_name = "ME-CSR-HNI-C114.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C114.2---HN_HMI_A3_NGUYEN_DUC_CANH_IBC" {
+object Host "ME-CSR-HNI-C114.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.80"
-  display_name = "ME-CSR-HNI-C114.2---HN_HMI_A3_NGUYEN_DUC_CANH_IBC"
+  display_name = "ME-CSR-HNI-C114.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C114.8---HN_HMI_NM_SU_VIGLACERA" {
+object Host "ME-CSR-HNI-C114.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.86"
-  display_name = "ME-CSR-HNI-C114.8---HN_HMI_NM_SU_VIGLACERA"
+  display_name = "ME-CSR-HNI-C114.8"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C115.8---HN_HMI_TRUONG_BAN_YEN_SO" {
+object Host "ME-CSR-HNI-C115.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.96"
-  display_name = "ME-CSR-HNI-C115.8---HN_HMI_TRUONG_BAN_YEN_SO"
+  display_name = "ME-CSR-HNI-C115.8"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C115.7---HN_HMI_THUY_LINH_3" {
+object Host "ME-CSR-HNI-C115.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.95"
-  display_name = "ME-CSR-HNI-C115.7---HN_HMI_THUY_LINH_3"
+  display_name = "ME-CSR-HNI-C115.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C115.3---HN_HMI_SAN_BONG_THINH_LIET" {
+object Host "ME-CSR-HNI-C115.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.91"
-  display_name = "ME-CSR-HNI-C115.3---HN_HMI_SAN_BONG_THINH_LIET"
+  display_name = "ME-CSR-HNI-C115.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C115.1---HN_HMI_GIAP_BAT_2" {
+object Host "ME-CSR-HNI-C115.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.89"
-  display_name = "ME-CSR-HNI-C115.1---HN_HMI_GIAP_BAT_2"
+  display_name = "ME-CSR-HNI-C115.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C115.2---HN_HMI_NAM_DO_TOWER_IBC" {
+object Host "ME-CSR-HNI-C115.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.90"
-  display_name = "ME-CSR-HNI-C115.2---HN_HMI_NAM_DO_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C115.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C115.6---HN_HMI_YEN_DUYEN_3" {
+object Host "ME-CSR-HNI-C115.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.94"
-  display_name = "ME-CSR-HNI-C115.6---HN_HMI_YEN_DUYEN_3"
+  display_name = "ME-CSR-HNI-C115.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C115.5---HN_HMI_YEN_DUYEN" {
+object Host "ME-CSR-HNI-C115.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.93"
-  display_name = "ME-CSR-HNI-C115.5---HN_HMI_YEN_DUYEN"
+  display_name = "ME-CSR-HNI-C115.5"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C116.2---HN_HMI_TRUONG_DINH_5" {
+object Host "ME-CSR-HNI-C116.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.28"
-  display_name = "ME-CSR-HNI-C116.2---HN_HMI_TRUONG_DINH_5"
+  display_name = "ME-CSR-HNI-C116.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C116.1---HN_HBT_TRAI_CA_2" {
+object Host "ME-CSR-HNI-C116.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.27"
-  display_name = "ME-CSR-HNI-C116.1---HN_HBT_TRAI_CA_2"
+  display_name = "ME-CSR-HNI-C116.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C116.3---HN_HMI_NGUYEN_AN_NINH" {
+object Host "ME-CSR-HNI-C116.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.29"
-  display_name = "ME-CSR-HNI-C116.3---HN_HMI_NGUYEN_AN_NINH"
+  display_name = "ME-CSR-HNI-C116.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C116.4---HN_HMI_GIAI_PHONG" {
+object Host "ME-CSR-HNI-C116.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.30"
-  display_name = "ME-CSR-HNI-C116.4---HN_HMI_GIAI_PHONG"
+  display_name = "ME-CSR-HNI-C116.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C116.5---HN_HMI_PHO_DINH_CONG_2" {
+object Host "ME-CSR-HNI-C116.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.31"
-  display_name = "ME-CSR-HNI-C116.5---HN_HMI_PHO_DINH_CONG_2"
+  display_name = "ME-CSR-HNI-C116.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C117.2---HN_HMI_A5_DAI_KIM_IBC" {
+object Host "ME-CSR-HNI-C117.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.100"
-  display_name = "ME-CSR-HNI-C117.2---HN_HMI_A5_DAI_KIM_IBC"
+  display_name = "ME-CSR-HNI-C117.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C117.4---HN_HMI_DAI_KIM" {
+object Host "ME-CSR-HNI-C117.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.102"
-  display_name = "ME-CSR-HNI-C117.4---HN_HMI_DAI_KIM"
+  display_name = "ME-CSR-HNI-C117.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C117.1---HN_HMI_THINH_LIET_2" {
+object Host "ME-CSR-HNI-C117.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.99"
-  display_name = "ME-CSR-HNI-C117.1---HN_HMI_THINH_LIET_2"
+  display_name = "ME-CSR-HNI-C117.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C117.3---HN_HMI_NGUYEN_XIEN_2" {
+object Host "ME-CSR-HNI-C117.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.101"
-  display_name = "ME-CSR-HNI-C117.3---HN_HMI_NGUYEN_XIEN_2"
+  display_name = "ME-CSR-HNI-C117.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C118.3---HN_HBT_LAC_TRUNG_4" {
+object Host "ME-CSR-HNI-C118.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.39"
-  display_name = "ME-CSR-HNI-C118.3---HN_HBT_LAC_TRUNG_4"
+  display_name = "ME-CSR-HNI-C118.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C118.7---HN_HBT_PHO_VONG_4" {
+object Host "ME-CSR-HNI-C118.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.43"
-  display_name = "ME-CSR-HNI-C118.7---HN_HBT_PHO_VONG_4"
+  display_name = "ME-CSR-HNI-C118.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C118.2---HN_HBT_CAU_VINH_TUY_4" {
+object Host "ME-CSR-HNI-C118.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.38"
-  display_name = "ME-CSR-HNI-C118.2---HN_HBT_CAU_VINH_TUY_4 "
+  display_name = "ME-CSR-HNI-C118.2"
   vars.interface["ge-1/1/0"].if_index = 521
   vars.interface["ge-1/1/1"].if_index = 522
 }
 
-object Host "ME-CSR-HNI-C118.6---HN_DDA_BV_BACH_MAI_IBC" {
+object Host "ME-CSR-HNI-C118.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.42"
-  display_name = "ME-CSR-HNI-C118.6---HN_DDA_BV_BACH_MAI_IBC"
+  display_name = "ME-CSR-HNI-C118.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C118.1---HN_HBT_LAC_TRUNG_3" {
+object Host "ME-CSR-HNI-C118.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.37"
-  display_name = "ME-CSR-HNI-C118.1---HN_HBT_LAC_TRUNG_3"
+  display_name = "ME-CSR-HNI-C118.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C118.4---HN_HBT_VTC_LAC_TRUNG_TOWER_IBC" {
+object Host "ME-CSR-HNI-C118.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.40"
-  display_name = "ME-CSR-HNI-C118.4---HN_HBT_VTC_LAC_TRUNG_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C118.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C118.5---HN_HBT_DH_XAY_DUNG" {
+object Host "ME-CSR-HNI-C118.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.41"
-  display_name = "ME-CSR-HNI-C118.5---HN_HBT_DH_XAY_DUNG"
+  display_name = "ME-CSR-HNI-C118.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "E-CSR-HNI-C121.2---HN_DDA_MIPEC_IBC" {
+object Host "ME-CSR-HNI-C121.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.82"
-  display_name = "E-CSR-HNI-C121.2---HN_DDA_MIPEC_IBC"
+  display_name = "ME-CSR-HNI-C121.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C121.4---HN_DDA_VINH_HO" {
+object Host "ME-CSR-HNI-C121.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.84"
-  display_name = "ME-CSR-HNI-C121.4---HN_DDA_VINH_HO"
+  display_name = "ME-CSR-HNI-C121.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C121.6---HN_DDA_THINH_QUANG_2" {
+object Host "ME-CSR-HNI-C121.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.86"
-  display_name = "ME-CSR-HNI-C121.6---HN_DDA_THINH_QUANG_2"
+  display_name = "ME-CSR-HNI-C121.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C121.1---HN_DDA_KHUONG_THUONG_5" {
+object Host "ME-CSR-HNI-C121.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.81"
-  display_name = "ME-CSR-HNI-C121.1---HN_DDA_KHUONG_THUONG_5"
+  display_name = "ME-CSR-HNI-C121.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C121.7---HN_DDA_LANG_HA_2" {
+object Host "ME-CSR-HNI-C121.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.87"
-  display_name = "ME-CSR-HNI-C121.7---HN_DDA_LANG_HA_2"
+  display_name = "ME-CSR-HNI-C121.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C121.3---HN_DDA_HO_BAN_NGUYET" {
+object Host "ME-CSR-HNI-C121.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.83"
-  display_name = "ME-CSR-HNI-C121.3---HN_DDA_HO_BAN_NGUYET"
+  display_name = "ME-CSR-HNI-C121.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C121.5---HN_DDA_THINH_QUANG_3" {
+object Host "ME-CSR-HNI-C121.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.85"
-  display_name = "ME-CSR-HNI-C121.5---HN_DDA_THINH_QUANG_3"
+  display_name = "ME-CSR-HNI-C121.5"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C122.3---HN_DDA_27_HUYNH_THUC_KHANG_IBC" {
+object Host "ME-CSR-HNI-C122.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.173"
-  display_name = "ME-CSR-HNI-C122.3---HN_DDA_27_HUYNH_THUC_KHANG_IBC"
+  display_name = "ME-CSR-HNI-C122.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C122.2---HN_DDA_PHAO_DAI_LANG_4" {
+object Host "ME-CSR-HNI-C122.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.172"
-  display_name = "ME-CSR-HNI-C122.2---HN_DDA_PHAO_DAI_LANG_4"
+  display_name = "ME-CSR-HNI-C122.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C122.5---HN_DDA_PHAO_DAI_LANG" {
+object Host "ME-CSR-HNI-C122.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.175"
-  display_name = "ME-CSR-HNI-C122.5---HN_DDA_PHAO_DAI_LANG"
+  display_name = "ME-CSR-HNI-C122.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C122.1---HN_DDA_TRUC_KHE" {
+object Host "ME-CSR-HNI-C122.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.171"
-  display_name = "ME-CSR-HNI-C122.1---HN_DDA_TRUC_KHE"
+  display_name = "ME-CSR-HNI-C122.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C122.6---HN_DDA_CHUA_LANG_5" {
+object Host "ME-CSR-HNI-C122.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.176"
-  display_name = "ME-CSR-HNI-C122.6---HN_DDA_CHUA_LANG_5"
+  display_name = "ME-CSR-HNI-C122.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C122.7---HN_DDA_LANG_THUONG_2" {
+object Host "ME-CSR-HNI-C122.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.177"
-  display_name = "ME-CSR-HNI-C122.7---HN_DDA_LANG_THUONG_2"
+  display_name = "ME-CSR-HNI-C122.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C122.4---HN_DDA_M3_M4_IBC" {
+object Host "ME-CSR-HNI-C122.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.174"
-  display_name = "ME-CSR-HNI-C122.4---HN_DDA_M3_M4_IBC"
+  display_name = "ME-CSR-HNI-C122.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C123.2---HN_DDA_TRAN_QUANG_DIEU" {
+object Host "ME-CSR-HNI-C123.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.222"
-  display_name = "ME-CSR-HNI-C123.2---HN_DDA_TRAN_QUANG_DIEU"
+  display_name = "ME-CSR-HNI-C123.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C123.4---HN_DDA_DANG_VAN_NGU_3" {
+object Host "ME-CSR-HNI-C123.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.224"
-  display_name = "ME-CSR-HNI-C123.4---HN_DDA_DANG_VAN_NGU_3"
+  display_name = "ME-CSR-HNI-C123.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C123.3---HN_DDA_187_TOWER_IBC" {
+object Host "ME-CSR-HNI-C123.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.223"
-  display_name = "ME-CSR-HNI-C123.3---HN_DDA_187_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C123.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C123.5---HN_DDA_KHUONG_THUONG_4" {
+object Host "ME-CSR-HNI-C123.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.225"
-  display_name = "ME-CSR-HNI-C123.5---HN_DDA_KHUONG_THUONG_4"
+  display_name = "ME-CSR-HNI-C123.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C124.7---HN_DDA_HO_LINH_QUANG_2" {
+object Host "ME-CSR-HNI-C124.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.67"
-  display_name = "ME-CSR-HNI-C124.7---HN_DDA_HO_LINH_QUANG_2"
+  display_name = "ME-CSR-HNI-C124.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C124.3---HN_DDA_SONG_HONG_LAND_IBC" {
+object Host "ME-CSR-HNI-C124.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.63"
-  display_name = "ME-CSR-HNI-C124.3---HN_DDA_SONG_HONG_LAND_IBC"
+  display_name = "ME-CSR-HNI-C124.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C124.4---HN_DDA_LANG_HA_3" {
+object Host "ME-CSR-HNI-C124.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.64"
-  display_name = "ME-CSR-HNI-C124.4---HN_DDA_LANG_HA_3"
+  display_name = "ME-CSR-HNI-C124.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C124.6---HN_DDA_HAO_NAM_5" {
+object Host "ME-CSR-HNI-C124.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.66"
-  display_name = "ME-CSR-HNI-C124.6---HN_DDA_HAO_NAM_5"
+  display_name = "ME-CSR-HNI-C124.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C124.2---HN_DDA_HO_THANH_CONG_3" {
+object Host "ME-CSR-HNI-C124.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.62"
-  display_name = "ME-CSR-HNI-C124.2---HN_DDA_HO_THANH_CONG_3"
+  display_name = "ME-CSR-HNI-C124.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C124.8---HN_DDA_HO_HUY_VAN_2" {
+object Host "ME-CSR-HNI-C124.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.68"
-  display_name = "ME-CSR-HNI-C124.8---HN_DDA_HO_HUY_VAN_2"
+  display_name = "ME-CSR-HNI-C124.8"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C124.1---HN_DDA_71_NGUYEN_CHI_THANH_IBC" {
+object Host "ME-CSR-HNI-C124.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.61"
-  display_name = "ME-CSR-HNI-C124.1---HN_DDA_71_NGUYEN_CHI_THANH_IBC"
+  display_name = "ME-CSR-HNI-C124.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C125.3---HN_CGY_LANG_TRUNG_KINH_2" {
+object Host "ME-CSR-HNI-C125.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.183"
-  display_name = "ME-CSR-HNI-C125.3---HN_CGY_LANG_TRUNG_KINH_2"
+  display_name = "ME-CSR-HNI-C125.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C125.8---HN_CGY_TONG_CUC_HAI_QUAN_IBC" {
+object Host "ME-CSR-HNI-C125.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.188"
-  display_name = "ME-CSR-HNI-C125.8---HN_CGY_TONG_CUC_HAI_QUAN_IBC"
+  display_name = "ME-CSR-HNI-C125.8"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C125.4---HN_CGY_CUC_TAN_SO_IBC" {
+object Host "ME-CSR-HNI-C125.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.184"
-  display_name = "ME-CSR-HNI-C125.4---HN_CGY_CUC_TAN_SO_IBC"
+  display_name = "ME-CSR-HNI-C125.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C125.5---HN_CGY_GRAND_CHARMVIT_IBC" {
+object Host "ME-CSR-HNI-C125.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.185"
-  display_name = "ME-CSR-HNI-C125.5---HN_CGY_GRAND_CHARMVIT_IBC"
+  display_name = "ME-CSR-HNI-C125.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C125.2---HN_CGY_TRAN_DUY_HUNG_2" {
+object Host "ME-CSR-HNI-C125.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.182"
-  display_name = "ME-CSR-HNI-C125.2---HN_CGY_TRAN_DUY_HUNG_2"
+  display_name = "ME-CSR-HNI-C125.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C125.7---HN_CGY_VIMECO_IBC" {
+object Host "ME-CSR-HNI-C125.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.187"
-  display_name = "ME-CSR-HNI-C125.7---HN_CGY_VIMECO_IBC"
+  display_name = "ME-CSR-HNI-C125.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C126.2---HN_CGY_NGUYEN_THI_DINH_2" {
+object Host "ME-CSR-HNI-C126.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.192"
-  display_name = "ME-CSR-HNI-C126.2---HN_CGY_NGUYEN_THI_DINH_2"
+  display_name = "ME-CSR-HNI-C126.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C126.4---HN_CGY_TRUNG_YEN_PLAZA_IBC" {
+object Host "ME-CSR-HNI-C126.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.194"
-  display_name = "ME-CSR-HNI-C126.4---HN_CGY_TRUNG_YEN_PLAZA_IBC"
+  display_name = "ME-CSR-HNI-C126.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C126.1---HN_CGY_HOA_MUC_TOWER" {
+object Host "ME-CSR-HNI-C126.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.191"
-  display_name = "ME-CSR-HNI-C126.1---HN_CGY_HOA_MUC_TOWER"
+  display_name = "ME-CSR-HNI-C126.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C126.7---HN_CGY_TRUNG_KINH_3" {
+object Host "ME-CSR-HNI-C126.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.197"
-  display_name = "ME-CSR-HNI-C126.7---HN_CGY_TRUNG_KINH_3"
+  display_name = "ME-CSR-HNI-C126.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C126.6---HN_CGY_F4_TRUNG_YEN" {
+object Host "ME-CSR-HNI-C126.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.196"
-  display_name = "ME-CSR-HNI-C126.6---HN_CGY_F4_TRUNG_YEN"
+  display_name = "ME-CSR-HNI-C126.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C126.3---HN_CGY_EURO_WINDOW_IBC" {
+object Host "ME-CSR-HNI-C126.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.193"
-  display_name = "ME-CSR-HNI-C126.3---HN_CGY_EURO_WINDOW_IBC"
+  display_name = "ME-CSR-HNI-C126.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C126.8---HN_CGY_YEN_HOA_2" {
+object Host "ME-CSR-HNI-C126.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.8.198"
-  display_name = "ME-CSR-HNI-C126.8---HN_CGY_YEN_HOA_2"
+  display_name = "ME-CSR-HNI-C126.8"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C127.2---HN_CGY_TULTRACO_IBC" {
+object Host "ME-CSR-HNI-C127.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.10"
-  display_name = "ME-CSR-HNI-C127.2---HN_CGY_TULTRACO_IBC"
+  display_name = "ME-CSR-HNI-C127.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C127.3---HN_CGY_299_CAU_GIAY_IBC" {
+object Host "ME-CSR-HNI-C127.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.11"
-  display_name = "ME-CSR-HNI-C127.3---HN_CGY_299_CAU_GIAY_IBC"
+  display_name = "ME-CSR-HNI-C127.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C127.1---HN_CGY_NGUYEN_PHONG_SAC" {
+object Host "ME-CSR-HNI-C127.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.9"
-  display_name = "ME-CSR-HNI-C127.1---HN_CGY_NGUYEN_PHONG_SAC"
+  display_name = "ME-CSR-HNI-C127.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C127.5---HN_CGY_TU_LIEM_2" {
+object Host "ME-CSR-HNI-C127.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.13"
-  display_name = "ME-CSR-HNI-C127.5---HN_CGY_TU_LIEM_2"
+  display_name = "ME-CSR-HNI-C127.5"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C127.4---HN_CGY_TU_LIEM" {
+object Host "ME-CSR-HNI-C127.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.12"
-  display_name = "ME-CSR-HNI-C127.4---HN_CGY_TU_LIEM"
+  display_name = "ME-CSR-HNI-C127.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C127.6---HN_CGY_CAU_GIAY_4" {
+object Host "ME-CSR-HNI-C127.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.14"
-  display_name = "ME-CSR-HNI-C127.6---HN_CGY_CAU_GIAY_4"
+  display_name = "ME-CSR-HNI-C127.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C128.6---HN_CGY_HOA_BINH_OFFICE_IBC" {
+object Host "ME-CSR-HNI-C128.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.130"
-  display_name = "ME-CSR-HNI-C128.6---HN_CGY_HOA_BINH_OFFICE_IBC"
+  display_name = "ME-CSR-HNI-C128.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C128.1---HN_CGY_QUAN_HOA" {
+object Host "ME-CSR-HNI-C128.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.125"
-  display_name = "ME-CSR-HNI-C128.1---HN_CGY_QUAN_HOA"
+  display_name = "ME-CSR-HNI-C128.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C128.3---HN_CGY_CMC_TOWER_IBC" {
+object Host "ME-CSR-HNI-C128.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.127"
-  display_name = "ME-CSR-HNI-C128.3---HN_CGY_CMC_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C128.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C128.5---HN_CGY_N105_NGUYEN_PHONG_SAC_IBC" {
+object Host "ME-CSR-HNI-C128.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.129"
-  display_name = "ME-CSR-HNI-C128.5---HN_CGY_N105_NGUYEN_PHONG_SAC_IBC"
+  display_name = "ME-CSR-HNI-C128.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C128.7---HN_CGY_TCT_789_TOWER_IBC" {
+object Host "ME-CSR-HNI-C128.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.131"
-  display_name = "ME-CSR-HNI-C128.7---HN_CGY_TCT_789_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C128.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C129.2---HN_CGY_NGO_155_CAU_GIAY" {
+object Host "ME-CSR-HNI-C129.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.136"
-  display_name = "ME-CSR-HNI-C129.2---HN_CGY_NGO_155_CAU_GIAY"
+  display_name = "ME-CSR-HNI-C129.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C129.1---HN_CGY_CAU_GIAY_3" {
+object Host "ME-CSR-HNI-C129.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.135"
-  display_name = "ME-CSR-HNI-C129.1---HN_CGY_CAU_GIAY_3"
+  display_name = "ME-CSR-HNI-C129.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C129.3---HN_CGY_CD_DIEN_LANH_HN_2" {
+object Host "ME-CSR-HNI-C129.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.137"
-  display_name = "ME-CSR-HNI-C129.3---HN_CGY_CD_DIEN_LANH_HN_2"
+  display_name = "ME-CSR-HNI-C129.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C129.9---HN_CGY_HOANG_QUOC_VIET_6" {
+object Host "ME-CSR-HNI-C129.9" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.143"
-  display_name = "ME-CSR-HNI-C129.9---HN_CGY_HOANG_QUOC_VIET_6"
+  display_name = "ME-CSR-HNI-C129.9"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C129.8---HN_CGY_NGUYEN_DINH_HOAN" {
+object Host "ME-CSR-HNI-C129.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.142"
-  display_name = "ME-CSR-HNI-C129.8---HN_CGY_NGUYEN_DINH_HOAN"
+  display_name = "ME-CSR-HNI-C129.8"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C129.7---HN_CGY_PHUNG_CHI_KIEN_2" {
+object Host "ME-CSR-HNI-C129.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.141"
-  display_name = "ME-CSR-HNI-C129.7---HN_CGY_PHUNG_CHI_KIEN_2"
+  display_name = "ME-CSR-HNI-C129.7"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C129.5---HN_CGY_28T_THANG_LONG_IBC_2" {
+object Host "ME-CSR-HNI-C129.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.139"
-  display_name = "ME-CSR-HNI-C129.5---HN_CGY_28T_THANG_LONG_IBC_2"
+  display_name = "ME-CSR-HNI-C129.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C129.4---HN_CGY_28T_THANG_LONG_IBC" {
+object Host "ME-CSR-HNI-C129.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.138"
-  display_name = "ME-CSR-HNI-C129.4---HN_CGY_28T_THANG_LONG_IBC"
+  display_name = "ME-CSR-HNI-C129.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C130.4---HN_CGY_DETECH_TOWER_IBC" {
+object Host "ME-CSR-HNI-C130.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.22"
-  display_name = "ME-CSR-HNI-C130.4---HN_CGY_DETECH_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C130.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C130.1---HN_CGY_HO_TUNG_MAU" {
+object Host "ME-CSR-HNI-C130.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.19"
-  display_name = "ME-CSR-HNI-C130.1---HN_CGY_HO_TUNG_MAU"
+  display_name = "ME-CSR-HNI-C130.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C130.3---HN_CGY_FPT_IBC" {
+object Host "ME-CSR-HNI-C130.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.21"
-  display_name = "ME-CSR-HNI-C130.3---HN_CGY_FPT_IBC"
+  display_name = "ME-CSR-HNI-C130.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C130.2---HN_CGY_HOANG_LINH_TOWER" {
+object Host "ME-CSR-HNI-C130.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.11.20"
-  display_name = "ME-CSR-HNI-C130.2---HN_CGY_HOANG_LINH_TOWER"
+  display_name = "ME-CSR-HNI-C130.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C131.3---HN_THO_XUAN_DIEU" {
+object Host "ME-CSR-HNI-C131.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.199"
-  display_name = "ME-CSR-HNI-C131.3---HN_THO_XUAN_DIEU"
+  display_name = "ME-CSR-HNI-C131.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C131.1---HN_THO_VO_CHI_CONG_2" {
+object Host "ME-CSR-HNI-C131.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.197"
-  display_name = "ME-CSR-HNI-C131.1---HN_THO_VO_CHI_CONG_2"
+  display_name = "ME-CSR-HNI-C131.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C131.5---HN_THO_GOLDEN_WESTLAKE_IBC" {
+object Host "ME-CSR-HNI-C131.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.201"
-  display_name = "ME-CSR-HNI-C131.5---HN_THO_GOLDEN_WESTLAKE_IBC"
+  display_name = "ME-CSR-HNI-C131.5"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C131.4---HN_BDH_SOFITEL_IBC" {
+object Host "ME-CSR-HNI-C131.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.9.200"
-  display_name = "ME-CSR-HNI-C131.4---HN_BDH_SOFITEL_IBC"
+  display_name = "ME-CSR-HNI-C131.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C132.3---HN_LBN_SILVER_WINGS_IBC" {
+object Host "ME-CSR-HNI-C132.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.109"
-  display_name = "ME-CSR-HNI-C132.3---HN_LBN_SILVER_WINGS_IBC"
+  display_name = "ME-CSR-HNI-C132.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C132.5---HN_LBN_NGOC_THUY" {
+object Host "ME-CSR-HNI-C132.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.111"
-  display_name = "ME-CSR-HNI-C132.5---HN_LBN_NGOC_THUY"
+  display_name = "ME-CSR-HNI-C132.5"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C132.7---HN_LBN_GIA_THUONG_2" {
+object Host "ME-CSR-HNI-C132.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.113"
-  display_name = "ME-CSR-HNI-C132.7---HN_LBN_GIA_THUONG_2"
+  display_name = "ME-CSR-HNI-C132.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C132.4---HN_LBN_DTM_NGOC_THUY" {
+object Host "ME-CSR-HNI-C132.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.110"
-  display_name = "ME-CSR-HNI-C132.4---HN_LBN_DTM_NGOC_THUY"
+  display_name = "ME-CSR-HNI-C132.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C132.2---HN_HKM_LUONG_NGOC_QUYEN" {
+object Host "ME-CSR-HNI-C132.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.108"
-  display_name = "ME-CSR-HNI-C132.2---HN_HKM_LUONG_NGOC_QUYEN"
+  display_name = "ME-CSR-HNI-C132.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C132.1---HN_HKM_LO_SU" {
+object Host "ME-CSR-HNI-C132.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.107"
-  display_name = "ME-CSR-HNI-C132.1---HN_HKM_LO_SU"
+  display_name = "ME-CSR-HNI-C132.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C132.6---HN_LBN_DUC_HOA" {
+object Host "ME-CSR-HNI-C132.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.112"
-  display_name = "ME-CSR-HNI-C132.6---HN_LBN_DUC_HOA"
+  display_name = "ME-CSR-HNI-C132.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C133.1---HN_LBN_PLASCHEM_IBC" {
+object Host "ME-CSR-HNI-C133.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.15.3"
-  display_name = "ME-CSR-HNI-C133.1---HN_LBN_PLASCHEM_IBC"
+  display_name = "ME-CSR-HNI-C133.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C133.5---HN_LBN_TU_DINH" {
+object Host "ME-CSR-HNI-C133.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.15.7"
-  display_name = "ME-CSR-HNI-C133.5---HN_LBN_TU_DINH"
+  display_name = "ME-CSR-HNI-C133.5"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C133.4---HN_LBN_SAN_BAY_GIA_LAM" {
+object Host "ME-CSR-HNI-C133.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.15.6"
-  display_name = "ME-CSR-HNI-C133.4---HN_LBN_SAN_BAY_GIA_LAM"
+  display_name = "ME-CSR-HNI-C133.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C135.4---HN_BDH_PHO_VAN_PHUC_2" {
+object Host "ME-CSR-HNI-C135.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.148"
-  display_name = "ME-CSR-HNI-C135.4---HN_BDH_PHO_VAN_PHUC_2"
+  display_name = "ME-CSR-HNI-C135.4"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C135.3---HN_BDH_CC266_DOI_CAN_IBC" {
+object Host "ME-CSR-HNI-C135.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.147"
-  display_name = "ME-CSR-HNI-C135.3---HN_BDH_CC266_DOI_CAN_IBC"
+  display_name = "ME-CSR-HNI-C135.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C135.6---HN_BDH_PHAN_KE_BINH" {
+object Host "ME-CSR-HNI-C135.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.150"
-  display_name = "ME-CSR-HNI-C135.6---HN_BDH_PHAN_KE_BINH"
+  display_name = "ME-CSR-HNI-C135.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C135.1---HN_BDH_DOI_NHAN" {
+object Host "ME-CSR-HNI-C135.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.145"
-  display_name = "ME-CSR-HNI-C135.1---HN_BDH_DOI_NHAN"
+  display_name = "ME-CSR-HNI-C135.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C135.2---HN_BDH_381_DOI_CAN_IBC" {
+object Host "ME-CSR-HNI-C135.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.146"
-  display_name = "ME-CSR-HNI-C135.2---HN_BDH_381_DOI_CAN_IBC"
+  display_name = "ME-CSR-HNI-C135.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C135.7---HN_BDH_CC_VIGLACERA_IBC" {
+object Host "ME-CSR-HNI-C135.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.151"
-  display_name = "ME-CSR-HNI-C135.7---HN_BDH_CC_VIGLACERA_IBC"
+  display_name = "ME-CSR-HNI-C135.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C135.5---HN_BDH_LOTTE_TOWER_IBC" {
+object Host "ME-CSR-HNI-C135.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.149"
-  display_name = "ME-CSR-HNI-C135.5---HN_BDH_LOTTE_TOWER_IBC"
+  display_name = "ME-CSR-HNI-C135.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C136.4---HN_BDH_BX_KIM_MA" {
+object Host "ME-CSR-HNI-C136.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.158"
-  display_name = "ME-CSR-HNI-C136.4---HN_BDH_BX_KIM_MA"
+  display_name = "ME-CSR-HNI-C136.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C136.1---HN_BDH_HOANG_HOA_THAM_2" {
+object Host "ME-CSR-HNI-C136.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.155"
-  display_name = "ME-CSR-HNI-C136.1---HN_BDH_HOANG_HOA_THAM_2"
+  display_name = "ME-CSR-HNI-C136.1"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C136.3---HN_BDH_BAO_TANG_B52" {
+object Host "ME-CSR-HNI-C136.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.157"
-  display_name = "ME-CSR-HNI-C136.3---HN_BDH_BAO_TANG_B52"
+  display_name = "ME-CSR-HNI-C136.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C136.8---HN_BDH_521_KIM_MA_IBC" {
+object Host "ME-CSR-HNI-C136.8" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.162"
-  display_name = "ME-CSR-HNI-C136.8---HN_BDH_521_KIM_MA_IBC"
+  display_name = "ME-CSR-HNI-C136.8"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C136.6---HN_BDH_NGO_NUI_TRUC" {
+object Host "ME-CSR-HNI-C136.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.160"
-  display_name = "ME-CSR-HNI-C136.6---HN_BDH_NGO_NUI_TRUC"
+  display_name = "ME-CSR-HNI-C136.6"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C136.5---HN_DDA_CAT_LINH_5" {
+object Host "ME-CSR-HNI-C136.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.159"
-  display_name = "ME-CSR-HNI-C136.5---HN_DDA_CAT_LINH_5"
+  display_name = "ME-CSR-HNI-C136.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C136.2---HN_BDH_DOI_CAN_6" {
+object Host "ME-CSR-HNI-C136.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.156"
-  display_name = "ME-CSR-HNI-C136.2---HN_BDH_DOI_CAN_6"
+  display_name = "ME-CSR-HNI-C136.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C136.7---HN_BDH_172_NGOC_KHANH_IBC" {
+object Host "ME-CSR-HNI-C136.7" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.161"
-  display_name = "ME-CSR-HNI-C136.7---HN_BDH_172_NGOC_KHANH_IBC"
+  display_name = "ME-CSR-HNI-C136.7"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C137.3---HN_BDH_SKY_LINE_IBC" {
+object Host "ME-CSR-HNI-C137.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.67"
-  display_name = "ME-CSR-HNI-C137.3---HN_BDH_SKY_LINE_IBC"
+  display_name = "ME-CSR-HNI-C137.3"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C137.5---HN_BDH_PHAN_DINH_PHUNG" {
+object Host "ME-CSR-HNI-C137.5" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.69"
-  display_name = "ME-CSR-HNI-C137.5---HN_BDH_PHAN_DINH_PHUNG"
+  display_name = "ME-CSR-HNI-C137.5"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C137.4---HN_BDH_HOE_NHAI" {
+object Host "ME-CSR-HNI-C137.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.68"
-  display_name = "ME-CSR-HNI-C137.4---HN_BDH_HOE_NHAI"
+  display_name = "ME-CSR-HNI-C137.4"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C137.6---HN_BDH_LY_NAM_DE_2" {
+object Host "ME-CSR-HNI-C137.6" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.70"
-  display_name = "ME-CSR-HNI-C137.6---HN_BDH_LY_NAM_DE_2"
+  display_name = "ME-CSR-HNI-C137.6"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C137.2---HN_BDH_CHAU_LONG" {
+object Host "ME-CSR-HNI-C137.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.66"
-  display_name = "ME-CSR-HNI-C137.2---HN_BDH_CHAU_LONG"
+  display_name = "ME-CSR-HNI-C137.2"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C137.1---HN_BDH_NGU_XA_2" {
+object Host "ME-CSR-HNI-C137.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.12.65"
-  display_name = "ME-CSR-HNI-C137.1---HN_BDH_NGU_XA_2"
+  display_name = "ME-CSR-HNI-C137.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C138.1---HN_BDH_HONG_PHUC" {
+object Host "ME-CSR-HNI-C138.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.67"
-  display_name = "ME-CSR-HNI-C138.1---HN_BDH_HONG_PHUC"
+  display_name = "ME-CSR-HNI-C138.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C138.3---HN_BDH_PHUC_XA_2" {
+object Host "ME-CSR-HNI-C138.3" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.69"
-  display_name = "ME-CSR-HNI-C138.3---HN_BDH_PHUC_XA_2"
+  display_name = "ME-CSR-HNI-C138.3"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
 
-object Host "ME-CSR-HNI-C138.2---HN_BDH_TAN_AP" {
+object Host "ME-CSR-HNI-C138.2" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.68"
-  display_name = "ME-CSR-HNI-C138.2---HN_BDH_TAN_AP"
+  display_name = "ME-CSR-HNI-C138.2"
   vars.interface["ge-1/1/1"].if_index = 524
   vars.interface["ge-1/1/0"].if_index = 523
 }
 
-object Host "ME-CSR-HNI-C138.4---HN_BDH_CAU_LONG_BIEN_2" {
+object Host "ME-CSR-HNI-C138.4" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.14.70"
-  display_name = "ME-CSR-HNI-C138.4---HN_BDH_CAU_LONG_BIEN_2"
+  display_name = "ME-CSR-HNI-C138.4"
   vars.interface["ge-1/1/0"].if_index = 530
   vars.interface["ge-1/1/1"].if_index = 532
 }
 
-object Host "ME-CSR-HNI-C105.1---HN_TXN_FAFILM" {
+object Host "ME-CSR-HNI-C105.1" {
   import "generic-host"
   import "ACX2100-CSR-Templates"
   address = "10.248.13.211"
-  display_name = "ME-CSR-HNI-C105.1---HN_TXN_FAFILM"
-  vars.interface["ge-1/1/0"].if_index = 523
-  vars.interface["ge-1/1/1"].if_index = 524
-}
-
-object Host "ME-CSR-HNI-C120.5---HN_HBT_NGO_THI_NHAM_2" {
-  import "generic-host"
-  import "ACX2100-CSR-Templates"
-  address = "10.248.13.55"
-  display_name = "ME-CSR-HNI-C120.5---HN_HBT_NGO_THI_NHAM_2"
-  vars.interface["ge-1/1/1"].if_index = 524
-  vars.interface["ge-1/1/0"].if_index = 523
-}
-
-object Host "ME-CSR-HNI-C120.2---HN_HBT_NGUYEN_BINH_KHIEM_2" {
-  import "generic-host"
-  import "ACX2100-CSR-Templates"
-  address = "10.248.13.52"
-  display_name = "ME-CSR-HNI-C120.2---HN_HBT_NGUYEN_BINH_KHIEM_2"
-  vars.interface["ge-1/1/1"].if_index = 524
-  vars.interface["ge-1/1/0"].if_index = 523
-}
-
-object Host "ME-CSR-HNI-C120.6---HN_DDA_NGO_1_KHAM_THIEN" {
-  import "generic-host"
-  import "ACX2100-CSR-Templates"
-  address = "10.248.13.56"
-  display_name = "ME-CSR-HNI-C120.6---HN_DDA_NGO_1_KHAM_THIEN"
-  vars.interface["ge-1/1/0"].if_index = 523
-  vars.interface["ge-1/1/1"].if_index = 524
-}
-
-object Host "ME-CSR-HNI-C120.1---HN_DDA_KIM_HOA" {
-  import "generic-host"
-  import "ACX2100-CSR-Templates"
-  address = "10.248.13.51"
-  display_name = "ME-CSR-HNI-C120.1---HN_DDA_KIM_HOA"
-  vars.interface["ge-1/1/1"].if_index = 524
-  vars.interface["ge-1/1/0"].if_index = 523
-}
-
-object Host "ME-CSR-HNI-C120.7---HN_DDA_CHO_KHAM_THIEN_4" {
-  import "generic-host"
-  import "ACX2100-CSR-Templates"
-  address = "10.248.13.57"
-  display_name = "ME-CSR-HNI-C120.7---HN_DDA_CHO_KHAM_THIEN_4"
-  vars.interface["ge-1/1/1"].if_index = 524
-  vars.interface["ge-1/1/0"].if_index = 523
-}
-
-object Host "ME-CSR-HNI-C120.4---HN_HBT_DO_NGOC_DU" {
-  import "generic-host"
-  import "ACX2100-CSR-Templates"
-  address = "10.248.13.54"
-  display_name = "ME-CSR-HNI-C120.4---HN_HBT_DO_NGOC_DU"
-  vars.interface["ge-1/1/0"].if_index = 523
-  vars.interface["ge-1/1/1"].if_index = 524
-}
-
-object Host "ME-CSR-HNI-C115.4---HN_HMI_TAN_MAI_2" {
-  import "ACX2100-CSR-Templates"
-  import "generic-host"
-  address = "10.248.11.92"
-  display_name = "ME-CSR-HNI-C115.4---HN_HMI_TAN_MAI_2"
-  vars.interface["ge-1/1/0"].if_index = 523
-  vars.interface["ge-1/1/1"].if_index = 524
-}
-
-object Host "ME-CSR-HNI-C110.1---HN_BTL_CT2_HOANG_QUOC_VIET_IBC" {
-  import "ACX2100-CSR-Templates"
-  import "generic-host"
-  address = "10.248.9.187"
-  display_name = "ME-CSR-HNI-C110.1---HN_BTL_CT2_HOANG_QUOC_VIET_IBC"
-  vars.interface["ge-1/1/0"].if_index = 523
-  vars.interface["ge-1/1/1"].if_index = 524
-}
-
-object Host "ME-CSR-HNI-C119.9---HN_HBT_25_LE_DAI_HANH" {
-  import "ACX2100-CSR-Templates"
-  import "generic-host"
-  address = "10.248.14.105"
-  display_name = "ME-CSR-HNI-C119.9---HN_HBT_25_LE_DAI_HANH"
+  display_name = "ME-CSR-HNI-C105.1"
   vars.interface["ge-1/1/0"].if_index = 523
   vars.interface["ge-1/1/1"].if_index = 524
 }
